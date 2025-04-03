@@ -1,0 +1,5403 @@
+Source: CCDIv2.1.0
+Models:
+    CCDIv1.7.2:
+        Version: 1.7.2
+    CCDIv1.9.1:
+        Version: 1.9.1
+    CCDIv2.0.0:
+        Version: 2.0.0
+    CCDIv2.1.0:
+        Version: 2.1.0
+    CCDIv1.8.0:
+        Version: 1.8.0
+Props:
+    cell_line:
+        cell_line_id:
+            CCDIv1.7.2:
+            -   cell_line_id:
+                    Parents: cell_line
+            CCDIv1.9.1:
+            -   cell_line_id:
+                    Parents: cell_line
+            CCDIv2.0.0:
+            -   cell_line_id:
+                    Parents: cell_line
+            CCDIv1.8.0:
+            -   cell_line_id:
+                    Parents: cell_line
+        source:
+            CCDIv1.7.2:
+            -   source:
+                    Parents: cell_line
+            CCDIv1.9.1:
+            -   source:
+                    Parents: cell_line
+            CCDIv2.0.0:
+            -   source:
+                    Parents: cell_line
+            CCDIv1.8.0:
+            -   source:
+                    Parents: cell_line
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: cell_line
+            CCDIv1.9.1:
+            -   id:
+                    Parents: cell_line
+            CCDIv2.0.0:
+            -   id:
+                    Parents: cell_line
+            CCDIv1.8.0:
+            -   id:
+                    Parents: cell_line
+        sample.sample_id:
+            CCDIv1.7.2:
+            -   sample.sample_id:
+                    Parents: cell_line
+            CCDIv1.9.1:
+            -   sample.sample_id:
+                    Parents: cell_line
+            CCDIv2.0.0:
+            -   sample.sample_id:
+                    Parents: cell_line
+            CCDIv1.8.0:
+            -   sample.sample_id:
+                    Parents: cell_line
+        study.study_id:
+            CCDIv1.7.2:
+            -   study.study_id:
+                    Parents: cell_line
+            CCDIv1.9.1:
+            -   study.study_id:
+                    Parents: cell_line
+            CCDIv2.0.0:
+            -   study.study_id:
+                    Parents: cell_line
+            CCDIv1.8.0:
+            -   study.study_id:
+                    Parents: cell_line
+    clinical_measure_file:
+        clinical_measure_file_id:
+            CCDIv1.7.2:
+            -   clinical_measure_file_id:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   clinical_measure_file_id:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   clinical_measure_file_id:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   clinical_measure_file_id:
+                    Parents: clinical_measure_file
+        file_name:
+            CCDIv1.7.2:
+            -   file_name:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   file_name:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   file_name:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   file_name:
+                    Parents: clinical_measure_file
+        file_type:
+            CCDIv1.7.2:
+            -   file_type:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   file_type:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   file_type:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   file_type:
+                    Parents: clinical_measure_file
+        file_description:
+            CCDIv1.7.2:
+            -   file_description:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   file_description:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   file_description:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   file_description:
+                    Parents: clinical_measure_file
+        file_size:
+            CCDIv1.7.2:
+            -   file_size:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   file_size:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   file_size:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   file_size:
+                    Parents: clinical_measure_file
+        md5sum:
+            CCDIv1.7.2:
+            -   md5sum:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   md5sum:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   md5sum:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   md5sum:
+                    Parents: clinical_measure_file
+        file_url:
+            CCDIv1.7.2:
+            -   file_url_in_cds:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   file_url:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   file_url:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   file_url_in_cds:
+                    Parents: clinical_measure_file
+        dcf_indexd_guid:
+            CCDIv1.7.2:
+            -   dcf_indexd_guid:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   dcf_indexd_guid:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   dcf_indexd_guid:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   dcf_indexd_guid:
+                    Parents: clinical_measure_file
+        checksum_algorithm:
+            CCDIv1.7.2:
+            -   checksum_algorithm:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   checksum_algorithm:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   checksum_algorithm:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   checksum_algorithm:
+                    Parents: clinical_measure_file
+        checksum_value:
+            CCDIv1.7.2:
+            -   checksum_value:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   checksum_value:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   checksum_value:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   checksum_value:
+                    Parents: clinical_measure_file
+        file_mapping_level:
+            CCDIv1.7.2:
+            -   file_mapping_level:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   file_mapping_level:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   file_mapping_level:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   file_mapping_level:
+                    Parents: clinical_measure_file
+        participant_list:
+            CCDIv1.7.2:
+            -   participant_list:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   participant_list:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   participant_list:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   participant_list:
+                    Parents: clinical_measure_file
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   id:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   id:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   id:
+                    Parents: clinical_measure_file
+        acl:
+            CCDIv1.7.2:
+            -   acl:
+                    Parents: study
+            CCDIv1.9.1:
+            -   acl:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   acl:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   acl:
+                    Parents: study
+        file_access:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   file_access:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   file_access:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        authz:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   authz:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   authz:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        participant.participant_id:
+            CCDIv1.7.2:
+            -   participant.participant_id:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   participant.participant_id:
+                    Parents: clinical_measure_file
+        study.study_id:
+            CCDIv1.7.2:
+            -   study.study_id:
+                    Parents: clinical_measure_file
+            CCDIv1.9.1:
+            -   study.study_id:
+                    Parents: clinical_measure_file
+            CCDIv2.0.0:
+            -   study.study_id:
+                    Parents: clinical_measure_file
+            CCDIv1.8.0:
+            -   study.study_id:
+                    Parents: clinical_measure_file
+        data_category:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   data_category:
+                    Parents: clinical_measure_file
+        crdc_id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   crdc_id:
+                    Parents: clinical_measure_file
+    cytogenomic_file:
+        cytogenomic_file_id:
+            CCDIv1.7.2:
+            -   cytogenomic_file_id:
+                    Parents: cytogenomic_file
+            CCDIv1.9.1:
+            -   cytogenomic_file_id:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   cytogenomic_file_id:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   cytogenomic_file_id:
+                    Parents: cytogenomic_file
+        file_name:
+            CCDIv1.7.2:
+            -   file_name:
+                    Parents: cytogenomic_file
+            CCDIv1.9.1:
+            -   file_name:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   file_name:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   file_name:
+                    Parents: cytogenomic_file
+        file_type:
+            CCDIv1.7.2:
+            -   file_type:
+                    Parents: cytogenomic_file
+            CCDIv1.9.1:
+            -   file_type:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   file_type:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   file_type:
+                    Parents: cytogenomic_file
+        file_description:
+            CCDIv1.7.2:
+            -   file_description:
+                    Parents: cytogenomic_file
+            CCDIv1.9.1:
+            -   file_description:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   file_description:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   file_description:
+                    Parents: cytogenomic_file
+        file_size:
+            CCDIv1.7.2:
+            -   file_size:
+                    Parents: cytogenomic_file
+            CCDIv1.9.1:
+            -   file_size:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   file_size:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   file_size:
+                    Parents: cytogenomic_file
+        md5sum:
+            CCDIv1.7.2:
+            -   md5sum:
+                    Parents: cytogenomic_file
+            CCDIv1.9.1:
+            -   md5sum:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   md5sum:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   md5sum:
+                    Parents: cytogenomic_file
+        file_url:
+            CCDIv1.7.2:
+            -   file_url_in_cds:
+                    Parents: cytogenomic_file
+            CCDIv1.9.1:
+            -   file_url:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   file_url:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   file_url_in_cds:
+                    Parents: cytogenomic_file
+        dcf_indexd_guid:
+            CCDIv1.7.2:
+            -   dcf_indexd_guid:
+                    Parents: cytogenomic_file
+            CCDIv1.9.1:
+            -   dcf_indexd_guid:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   dcf_indexd_guid:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   dcf_indexd_guid:
+                    Parents: cytogenomic_file
+        file_mapping_level:
+            CCDIv1.7.2:
+            -   file_mapping_level:
+                    Parents: cytogenomic_file
+            CCDIv1.9.1:
+            -   file_mapping_level:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   file_mapping_level:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   file_mapping_level:
+                    Parents: cytogenomic_file
+        cytogenomic_platform:
+            CCDIv1.7.2:
+            -   cytogenomic_platform:
+                    Parents: cytogenomic_file
+            CCDIv1.9.1:
+            -   cytogenomic_platform:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   cytogenomic_platform:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   cytogenomic_platform:
+                    Parents: cytogenomic_file
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: cytogenomic_file
+            CCDIv1.9.1:
+            -   id:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   id:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   id:
+                    Parents: cytogenomic_file
+        acl:
+            CCDIv1.7.2:
+            -   acl:
+                    Parents: study
+            CCDIv1.9.1:
+            -   acl:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   acl:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   acl:
+                    Parents: study
+        file_access:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   file_access:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   file_access:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        authz:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   authz:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   authz:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        sample.sample_id:
+            CCDIv1.7.2:
+            -   sample.sample_id:
+                    Parents: cytogenomic_file
+            CCDIv1.9.1:
+            -   sample.sample_id:
+                    Parents: cytogenomic_file
+            CCDIv2.0.0:
+            -   sample.sample_id:
+                    Parents: cytogenomic_file
+            CCDIv1.8.0:
+            -   sample.sample_id:
+                    Parents: cytogenomic_file
+        data_category:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   data_category:
+                    Parents: cytogenomic_file
+        crdc_id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   crdc_id:
+                    Parents: cytogenomic_file
+    diagnosis:
+        diagnosis_id:
+            CCDIv1.7.2:
+            -   diagnosis_id:
+                    Parents: diagnosis
+            CCDIv1.9.1:
+            -   diagnosis_id:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   diagnosis_id:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   diagnosis_id:
+                    Parents: diagnosis
+        diagnosis:
+            CCDIv1.7.2:
+            -   diagnosis_classification:
+                    Parents: diagnosis
+            -   diagnosis_classification:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   diagnosis:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   diagnosis:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   diagnosis:
+                    Parents: diagnosis
+        diagnosis_classification_system:
+            CCDIv1.7.2:
+            -   diagnosis_classification_system:
+                    Parents: diagnosis
+            -   diagnosis_classification_system:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   diagnosis_classification_system:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   diagnosis_classification_system:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   diagnosis_classification_system:
+                    Parents: diagnosis
+        diagnosis_basis:
+            CCDIv1.7.2:
+            -   diagnosis_basis:
+                    Parents: diagnosis
+            -   diagnosis_basis:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   diagnosis_basis:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   diagnosis_basis:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   diagnosis_basis:
+                    Parents: diagnosis
+        diagnosis_comment:
+            CCDIv1.7.2:
+            -   diagnosis_comment:
+                    Parents: diagnosis
+            -   diagnosis_comment:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   diagnosis_comment:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   diagnosis_comment:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   diagnosis_comment:
+                    Parents: diagnosis
+        disease_phase:
+            CCDIv1.7.2:
+            -   disease_phase:
+                    Parents: diagnosis
+            CCDIv1.9.1:
+            -   disease_phase:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   disease_phase:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   disease_phase:
+                    Parents: diagnosis
+        tumor_classification:
+            CCDIv1.7.2:
+            -   tumor_classification:
+                    Parents: diagnosis
+            CCDIv1.9.1:
+            -   tumor_classification:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   tumor_classification:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   tumor_classification:
+                    Parents: diagnosis
+        anatomic_site:
+            CCDIv1.7.2:
+            -   anatomic_site:
+                    Parents: diagnosis
+            CCDIv1.9.1:
+            -   anatomic_site:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   anatomic_site:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   anatomic_site:
+                    Parents: diagnosis
+        age_at_diagnosis:
+            CCDIv1.7.2:
+            -   age_at_diagnosis:
+                    Parents: diagnosis
+            CCDIv1.9.1:
+            -   age_at_diagnosis:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   age_at_diagnosis:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   age_at_diagnosis:
+                    Parents: diagnosis
+        toronto_childhood_cancer_staging:
+            CCDIv1.7.2:
+            -   toronto_childhood_cancer_staging:
+                    Parents: diagnosis
+            -   toronto_childhood_cancer_staging:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   toronto_childhood_cancer_staging:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   toronto_childhood_cancer_staging:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   toronto_childhood_cancer_staging:
+                    Parents: diagnosis
+        tumor_grade:
+            CCDIv1.7.2:
+            -   tumor_grade:
+                    Parents: diagnosis
+            -   tumor_grade:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   tumor_grade:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   tumor_grade:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   tumor_grade:
+                    Parents: diagnosis
+        tumor_stage_clinical_t:
+            CCDIv1.7.2:
+            -   tumor_stage_clinical_t:
+                    Parents: diagnosis
+            -   tumor_stage_clinical_t:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   tumor_stage_clinical_t:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   tumor_stage_clinical_t:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   tumor_stage_clinical_t:
+                    Parents: diagnosis
+        tumor_stage_clinical_n:
+            CCDIv1.7.2:
+            -   tumor_stage_clinical_n:
+                    Parents: diagnosis
+            -   tumor_stage_clinical_n:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   tumor_stage_clinical_n:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   tumor_stage_clinical_n:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   tumor_stage_clinical_n:
+                    Parents: diagnosis
+        tumor_stage_clinical_m:
+            CCDIv1.7.2:
+            -   tumor_stage_clinical_m:
+                    Parents: diagnosis
+            -   tumor_stage_clinical_m:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   tumor_stage_clinical_m:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   tumor_stage_clinical_m:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   tumor_stage_clinical_m:
+                    Parents: diagnosis
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: diagnosis
+            CCDIv1.9.1:
+            -   id:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   id:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   id:
+                    Parents: diagnosis
+        tumor_stage_source:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   tumor_stage_source:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   tumor_stage_source:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   tumor_stage_source:
+                    Parents: diagnosis
+        tumor_grade_source:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   tumor_grade_source:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   tumor_grade_source:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   tumor_grade_source:
+                    Parents: diagnosis
+        participant.participant_id:
+            CCDIv1.7.2:
+            -   participant.participant_id:
+                    Parents: diagnosis
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   participant.participant_id:
+                    Parents: diagnosis
+        sample.sample_id:
+            CCDIv1.7.2:
+            -   sample_id:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   sample.sample_id:
+                    Parents: diagnosis
+            CCDIv2.0.0:
+            -   sample.sample_id:
+                    Parents: diagnosis
+            CCDIv1.8.0:
+            -   sample.sample_id:
+                    Parents: diagnosis
+        year_of_diagnosis:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   year_of_diagnosis:
+                    Parents: diagnosis
+        laterality:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   laterality:
+                    Parents: diagnosis
+    exposure:
+        exposure_id:
+            CCDIv1.7.2:
+            -   exposure_id:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   exposure_id:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   exposure_id:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   exposure_id:
+                    Parents: exposure
+        age_at_exposure:
+            CCDIv1.7.2:
+            -   age_at_exposure:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   age_at_exposure:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   age_at_exposure:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   age_at_exposure:
+                    Parents: exposure
+        pack_years_smoked:
+            CCDIv1.7.2:
+            -   pack_years_smoked:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   pack_years_smoked:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   pack_years_smoked:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   pack_years_smoked:
+                    Parents: exposure
+        years_smoked:
+            CCDIv1.7.2:
+            -   years_smoked:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   years_smoked:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   years_smoked:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   years_smoked:
+                    Parents: exposure
+        alcohol_days_per_week:
+            CCDIv1.7.2:
+            -   alcohol_days_per_week:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   alcohol_days_per_week:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   alcohol_days_per_week:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   alcohol_days_per_week:
+                    Parents: exposure
+        alcohol_drinks_per_day:
+            CCDIv1.7.2:
+            -   alcohol_drinks_per_day:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   alcohol_drinks_per_day:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   alcohol_drinks_per_day:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   alcohol_drinks_per_day:
+                    Parents: exposure
+        alcohol_history:
+            CCDIv1.7.2:
+            -   alcohol_history:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   alcohol_history:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   alcohol_history:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   alcohol_history:
+                    Parents: exposure
+        alcohol_intensity:
+            CCDIv1.7.2:
+            -   alcohol_intensity:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   alcohol_intensity:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   alcohol_intensity:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   alcohol_intensity:
+                    Parents: exposure
+        asbestos_exposure:
+            CCDIv1.7.2:
+            -   asbestos_exposure:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   asbestos_exposure:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   asbestos_exposure:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   asbestos_exposure:
+                    Parents: exposure
+        cigarettes_per_day:
+            CCDIv1.7.2:
+            -   cigarettes_per_day:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   cigarettes_per_day:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   cigarettes_per_day:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   cigarettes_per_day:
+                    Parents: exposure
+        coal_dust_exposure:
+            CCDIv1.7.2:
+            -   coal_dust_exposure:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   coal_dust_exposure:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   coal_dust_exposure:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   coal_dust_exposure:
+                    Parents: exposure
+        environmental_tobacco_smoke_exposure:
+            CCDIv1.7.2:
+            -   environmental_tobacco_smoke_exposure:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   environmental_tobacco_smoke_exposure:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   environmental_tobacco_smoke_exposure:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   environmental_tobacco_smoke_exposure:
+                    Parents: exposure
+        radon_exposure:
+            CCDIv1.7.2:
+            -   radon_exposure:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   radon_exposure:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   radon_exposure:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   radon_exposure:
+                    Parents: exposure
+        respirable_crystalline_silica_exposure:
+            CCDIv1.7.2:
+            -   respirable_crystalline_silica_exposure:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   respirable_crystalline_silica_exposure:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   respirable_crystalline_silica_exposure:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   respirable_crystalline_silica_exposure:
+                    Parents: exposure
+        smoking_frequency:
+            CCDIv1.7.2:
+            -   smoking_frequency:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   smoking_frequency:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   smoking_frequency:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   smoking_frequency:
+                    Parents: exposure
+        time_between_waking_and_first_smoke:
+            CCDIv1.7.2:
+            -   time_between_waking_and_first_smoke:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   time_between_waking_and_first_smoke:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   time_between_waking_and_first_smoke:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   time_between_waking_and_first_smoke:
+                    Parents: exposure
+        tobacco_smoking_onset_year:
+            CCDIv1.7.2:
+            -   tobacco_smoking_onset_year:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   tobacco_smoking_onset_year:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   tobacco_smoking_onset_year:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   tobacco_smoking_onset_year:
+                    Parents: exposure
+        tobacco_smoking_quit_year:
+            CCDIv1.7.2:
+            -   tobacco_smoking_quit_year:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   tobacco_smoking_quit_year:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   tobacco_smoking_quit_year:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   tobacco_smoking_quit_year:
+                    Parents: exposure
+        tobacco_smoking_status:
+            CCDIv1.7.2:
+            -   tobacco_smoking_status:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   tobacco_smoking_status:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   tobacco_smoking_status:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   tobacco_smoking_status:
+                    Parents: exposure
+        type_of_smoke_exposure:
+            CCDIv1.7.2:
+            -   type_of_smoke_exposure:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   type_of_smoke_exposure:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   type_of_smoke_exposure:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   type_of_smoke_exposure:
+                    Parents: exposure
+        type_of_tobacco_used:
+            CCDIv1.7.2:
+            -   type_of_tobacco_used:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   type_of_tobacco_used:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   type_of_tobacco_used:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   type_of_tobacco_used:
+                    Parents: exposure
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   id:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   id:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   id:
+                    Parents: exposure
+        participant.participant_id:
+            CCDIv1.7.2:
+            -   participant.participant_id:
+                    Parents: exposure
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: exposure
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: exposure
+            CCDIv1.8.0:
+            -   participant.participant_id:
+                    Parents: exposure
+    family_relationship:
+        family_relationship_id:
+            CCDIv1.7.2:
+            -   family_relationship_id:
+                    Parents: family_relationship
+            CCDIv1.9.1:
+            -   family_relationship_id:
+                    Parents: family_relationship
+            CCDIv2.0.0:
+            -   family_relationship_id:
+                    Parents: family_relationship
+            CCDIv1.8.0:
+            -   family_relationship_id:
+                    Parents: family_relationship
+        related_to_participant_id:
+            CCDIv1.7.2:
+            -   related_to_participant_id:
+                    Parents: family_relationship
+            CCDIv1.9.1:
+            -   related_to_participant_id:
+                    Parents: family_relationship
+            CCDIv2.0.0:
+            -   related_to_participant_id:
+                    Parents: family_relationship
+            CCDIv1.8.0:
+            -   related_to_participant_id:
+                    Parents: family_relationship
+        relationship:
+            CCDIv1.7.2:
+            -   relationship:
+                    Parents: family_relationship
+            CCDIv1.9.1:
+            -   relationship:
+                    Parents: family_relationship
+            CCDIv2.0.0:
+            -   relationship:
+                    Parents: family_relationship
+            CCDIv1.8.0:
+            -   relationship:
+                    Parents: family_relationship
+        family_id:
+            CCDIv1.7.2:
+            -   family_id:
+                    Parents: family_relationship
+            CCDIv1.9.1:
+            -   family_id:
+                    Parents: family_relationship
+            CCDIv2.0.0:
+            -   family_id:
+                    Parents: family_relationship
+            CCDIv1.8.0:
+            -   family_id:
+                    Parents: family_relationship
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: family_relationship
+            CCDIv1.9.1:
+            -   id:
+                    Parents: family_relationship
+            CCDIv2.0.0:
+            -   id:
+                    Parents: family_relationship
+            CCDIv1.8.0:
+            -   id:
+                    Parents: family_relationship
+        participant.participant_id:
+            CCDIv1.7.2:
+            -   participant.participant_id:
+                    Parents: family_relationship
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: family_relationship
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: family_relationship
+            CCDIv1.8.0:
+            -   participant.participant_id:
+                    Parents: family_relationship
+    survival:
+        survival_id:
+            CCDIv1.7.2:
+            -   follow_up_id:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   survival_id:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   survival_id:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   survival_id:
+                    Parents: survival
+        last_known_survival_status:
+            CCDIv1.7.2:
+            -   vital_status:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   last_known_survival_status:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   last_known_survival_status:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   last_known_survival_status:
+                    Parents: survival
+        age_at_last_known_survival_status:
+            CCDIv1.7.2:
+            -   age_at_follow_up:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   age_at_last_known_survival_status:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   age_at_last_known_survival_status:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   age_at_last_known_survival_status:
+                    Parents: survival
+        follow_up_category:
+            CCDIv1.7.2:
+            -   follow_up_category:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   follow_up_category:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   follow_up_category:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   follow_up_category:
+                    Parents: survival
+        adverse_event:
+            CCDIv1.7.2:
+            -   adverse_event:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   adverse_event:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   adverse_event:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   adverse_event:
+                    Parents: survival
+        comorbidity:
+            CCDIv1.7.2:
+            -   comorbidity:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   comorbidity:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   comorbidity:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   comorbidity:
+                    Parents: survival
+        comorbidity_method_of_diagnosis:
+            CCDIv1.7.2:
+            -   comorbidity_method_of_diagnosis:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   comorbidity_method_of_diagnosis:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   comorbidity_method_of_diagnosis:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   comorbidity_method_of_diagnosis:
+                    Parents: survival
+        risk_factor:
+            CCDIv1.7.2:
+            -   risk_factor:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   risk_factor:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   risk_factor:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   risk_factor:
+                    Parents: survival
+        follow_up_other:
+            CCDIv1.7.2:
+            -   follow_up_other:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   follow_up_other:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   follow_up_other:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   follow_up_other:
+                    Parents: survival
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   id:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   id:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   id:
+                    Parents: survival
+        first_event:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   first_event:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   first_event:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   first_event:
+                    Parents: survival
+        event_free_survival_status:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   event_free_survival_status:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   event_free_survival_status:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   event_free_survival_status:
+                    Parents: survival
+        age_at_event_free_survival_status:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   age_at_event_free_survival_status:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   age_at_event_free_survival_status:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   age_at_event_free_survival_status:
+                    Parents: survival
+        cause_of_death:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   cause_of_death:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   cause_of_death:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        participant.participant_id:
+            CCDIv1.7.2:
+            -   participant.participant_id:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: survival
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: survival
+            CCDIv1.8.0:
+            -   participant.participant_id:
+                    Parents: survival
+    treatment_response:
+        response:
+            CCDIv1.7.2:
+            -   disease_response:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   response:
+                    Parents: treatment_response
+            CCDIv2.0.0:
+            -   response:
+                    Parents: treatment_response
+            CCDIv1.8.0:
+            -   response:
+                    Parents: treatment_response
+        treatment_response_id:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   treatment_response_id:
+                    Parents: treatment_response
+            CCDIv2.0.0:
+            -   treatment_response_id:
+                    Parents: treatment_response
+            CCDIv1.8.0:
+            -   treatment_response_id:
+                    Parents: treatment_response
+        age_at_response:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   age_at_response:
+                    Parents: treatment_response
+            CCDIv2.0.0:
+            -   age_at_response:
+                    Parents: treatment_response
+            CCDIv1.8.0:
+            -   age_at_response:
+                    Parents: treatment_response
+        response_category:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   response_category:
+                    Parents: treatment_response
+            CCDIv2.0.0:
+            -   response_category:
+                    Parents: treatment_response
+            CCDIv1.8.0:
+            -   response_category:
+                    Parents: treatment_response
+        response_system:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   response_system:
+                    Parents: treatment_response
+            CCDIv2.0.0:
+            -   response_system:
+                    Parents: treatment_response
+            CCDIv1.8.0:
+            -   response_system:
+                    Parents: treatment_response
+        id:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   id:
+                    Parents: treatment_response
+            CCDIv2.0.0:
+            -   id:
+                    Parents: treatment_response
+            CCDIv1.8.0:
+            -   id:
+                    Parents: treatment_response
+        participant.participant_id:
+            CCDIv1.7.2:
+            -   participant.participant_id:
+                    Parents: follow_up
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: treatment_response
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: treatment_response
+            CCDIv1.8.0:
+            -   participant.participant_id:
+                    Parents: treatment_response
+    medical_history:
+        medical_history_id:
+            CCDIv1.7.2:
+            -   medical_history_id:
+                    Parents: medical_history
+            CCDIv1.9.1:
+            -   medical_history_id:
+                    Parents: medical_history
+            CCDIv2.0.0:
+            -   medical_history_id:
+                    Parents: medical_history
+            CCDIv1.8.0:
+            -   medical_history_id:
+                    Parents: medical_history
+        medical_history_category:
+            CCDIv1.7.2:
+            -   medical_history_category:
+                    Parents: medical_history
+            CCDIv1.9.1:
+            -   medical_history_category:
+                    Parents: medical_history
+            CCDIv2.0.0:
+            -   medical_history_category:
+                    Parents: medical_history
+            CCDIv1.8.0:
+            -   medical_history_category:
+                    Parents: medical_history
+        medical_history_condition:
+            CCDIv1.7.2:
+            -   medical_history_condition:
+                    Parents: medical_history
+            CCDIv1.9.1:
+            -   medical_history_condition:
+                    Parents: medical_history
+            CCDIv2.0.0:
+            -   medical_history_condition:
+                    Parents: medical_history
+            CCDIv1.8.0:
+            -   medical_history_condition:
+                    Parents: medical_history
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: medical_history
+            CCDIv1.9.1:
+            -   id:
+                    Parents: medical_history
+            CCDIv2.0.0:
+            -   id:
+                    Parents: medical_history
+            CCDIv1.8.0:
+            -   id:
+                    Parents: medical_history
+        participant.participant_id:
+            CCDIv1.7.2:
+            -   participant.participant_id:
+                    Parents: medical_history
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: medical_history
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: medical_history
+            CCDIv1.8.0:
+            -   participant.participant_id:
+                    Parents: medical_history
+    molecular_test:
+        molecular_test_id:
+            CCDIv1.7.2:
+            -   molecular_test_id:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   molecular_test_id:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   molecular_test_id:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   molecular_test_id:
+                    Parents: molecular_test
+        age_at_molecular_test:
+            CCDIv1.7.2:
+            -   age_at_molecular_test:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   age_at_molecular_test:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   age_at_molecular_test:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   age_at_molecular_test:
+                    Parents: molecular_test
+        gene_symbol:
+            CCDIv1.7.2:
+            -   gene_symbol:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   gene_symbol:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   gene_symbol:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   gene_symbol:
+                    Parents: molecular_test
+        molecular_analysis_method:
+            CCDIv1.7.2:
+            -   molecular_analysis_method:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   molecular_analysis_method:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   molecular_analysis_method:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   molecular_analysis_method:
+                    Parents: molecular_test
+        laboratory_test_name:
+            CCDIv1.7.2:
+            -   laboratory_test_name:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   laboratory_test_name:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   laboratory_test_name:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   laboratory_test_name:
+                    Parents: molecular_test
+        test_result_text:
+            CCDIv1.7.2:
+            -   test_result_text:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   test_result_text:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   test_result_text:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   test_result_text:
+                    Parents: molecular_test
+        test_result_numeric:
+            CCDIv1.7.2:
+            -   test_result_numeric:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   test_result_numeric:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   test_result_numeric:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   test_result_numeric:
+                    Parents: molecular_test
+        test_unit:
+            CCDIv1.7.2:
+            -   test_unit:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   test_unit:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   test_unit:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   test_unit:
+                    Parents: molecular_test
+        aa_change:
+            CCDIv1.7.2:
+            -   aa_change:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   aa_change:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   aa_change:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   aa_change:
+                    Parents: molecular_test
+        antigen:
+            CCDIv1.7.2:
+            -   antigen:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   antigen:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   antigen:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   antigen:
+                    Parents: molecular_test
+        anatomic_site:
+            CCDIv1.7.2:
+            -   anatomic_site:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   anatomic_site:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   anatomic_site:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   anatomic_site:
+                    Parents: molecular_test
+        blood_test_normal_range_upper:
+            CCDIv1.7.2:
+            -   blood_test_normal_range_upper:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   blood_test_normal_range_upper:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   blood_test_normal_range_upper:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   blood_test_normal_range_upper:
+                    Parents: molecular_test
+        blood_test_normal_range_lower:
+            CCDIv1.7.2:
+            -   blood_test_normal_range_lower:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   blood_test_normal_range_lower:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   blood_test_normal_range_lower:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   blood_test_normal_range_lower:
+                    Parents: molecular_test
+        cell_count:
+            CCDIv1.7.2:
+            -   cell_count:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   cell_count:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   cell_count:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   cell_count:
+                    Parents: molecular_test
+        copy_number:
+            CCDIv1.7.2:
+            -   copy_number:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   copy_number:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   copy_number:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   copy_number:
+                    Parents: molecular_test
+        cytoband:
+            CCDIv1.7.2:
+            -   cytoband:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   cytoband:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   cytoband:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   cytoband:
+                    Parents: molecular_test
+        exon:
+            CCDIv1.7.2:
+            -   exon:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   exon:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   exon:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   exon:
+                    Parents: molecular_test
+        gene_mutation_abnormality_type:
+            CCDIv1.7.2:
+            -   gene_mutation_abnormality_type:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   gene_mutation_abnormality_type:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   gene_mutation_abnormality_type:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   gene_mutation_abnormality_type:
+                    Parents: molecular_test
+        histone_family:
+            CCDIv1.7.2:
+            -   histone_family:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   histone_family:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   histone_family:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   histone_family:
+                    Parents: molecular_test
+        histone_variant:
+            CCDIv1.7.2:
+            -   histone_variant:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   histone_variant:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   histone_variant:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   histone_variant:
+                    Parents: molecular_test
+        intron:
+            CCDIv1.7.2:
+            -   intron:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   intron:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   intron:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   intron:
+                    Parents: molecular_test
+        loci_abnormal_count:
+            CCDIv1.7.2:
+            -   loci_abnormal_count:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   loci_abnormal_count:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   loci_abnormal_count:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   loci_abnormal_count:
+                    Parents: molecular_test
+        loci_count:
+            CCDIv1.7.2:
+            -   loci_count:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   loci_count:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   loci_count:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   loci_count:
+                    Parents: molecular_test
+        locus:
+            CCDIv1.7.2:
+            -   locus:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   locus:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   locus:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   locus:
+                    Parents: molecular_test
+        mismatch_repair_mutation:
+            CCDIv1.7.2:
+            -   mismatch_repair_mutation:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   mismatch_repair_mutation:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   mismatch_repair_mutation:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   mismatch_repair_mutation:
+                    Parents: molecular_test
+        pathogenicity:
+            CCDIv1.7.2:
+            -   pathogenicity:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   pathogenicity:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   pathogenicity:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   pathogenicity:
+                    Parents: molecular_test
+        ploidy:
+            CCDIv1.7.2:
+            -   ploidy:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   ploidy:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   ploidy:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   ploidy:
+                    Parents: molecular_test
+        second_exon:
+            CCDIv1.7.2:
+            -   second_exon:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   second_exon:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   second_exon:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   second_exon:
+                    Parents: molecular_test
+        second_gene_symbol:
+            CCDIv1.7.2:
+            -   second_gene_symbol:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   second_gene_symbol:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   second_gene_symbol:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   second_gene_symbol:
+                    Parents: molecular_test
+        specialized_molecular_test:
+            CCDIv1.7.2:
+            -   specialized_molecular_test:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   specialized_molecular_test:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   specialized_molecular_test:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   specialized_molecular_test:
+                    Parents: molecular_test
+        test_analyte_type:
+            CCDIv1.7.2:
+            -   test_analyte_type:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   test_analyte_type:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   test_analyte_type:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   test_analyte_type:
+                    Parents: molecular_test
+        transcript:
+            CCDIv1.7.2:
+            -   transcript:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   transcript:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   transcript:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   transcript:
+                    Parents: molecular_test
+        variant_origin:
+            CCDIv1.7.2:
+            -   variant_origin:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   variant_origin:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   variant_origin:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   variant_origin:
+                    Parents: molecular_test
+        variant_type:
+            CCDIv1.7.2:
+            -   variant_type:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   variant_type:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   variant_type:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   variant_type:
+                    Parents: molecular_test
+        zygosity:
+            CCDIv1.7.2:
+            -   zygosity:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   zygosity:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   zygosity:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   zygosity:
+                    Parents: molecular_test
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   id:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   id:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   id:
+                    Parents: molecular_test
+        participant.participant_id:
+            CCDIv1.7.2:
+            -   participant.participant_id:
+                    Parents: molecular_test
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: molecular_test
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: molecular_test
+            CCDIv1.8.0:
+            -   participant.participant_id:
+                    Parents: molecular_test
+    methylation_array_file:
+        methylation_array_file_id:
+            CCDIv1.7.2:
+            -   methylation_array_file_id:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   methylation_array_file_id:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   methylation_array_file_id:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   methylation_array_file_id:
+                    Parents: methylation_array_file
+        file_name:
+            CCDIv1.7.2:
+            -   file_name:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   file_name:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   file_name:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   file_name:
+                    Parents: methylation_array_file
+        file_type:
+            CCDIv1.7.2:
+            -   file_type:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   file_type:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   file_type:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   file_type:
+                    Parents: methylation_array_file
+        file_description:
+            CCDIv1.7.2:
+            -   file_description:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   file_description:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   file_description:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   file_description:
+                    Parents: methylation_array_file
+        file_size:
+            CCDIv1.7.2:
+            -   file_size:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   file_size:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   file_size:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   file_size:
+                    Parents: methylation_array_file
+        md5sum:
+            CCDIv1.7.2:
+            -   md5sum:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   md5sum:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   md5sum:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   md5sum:
+                    Parents: methylation_array_file
+        file_url:
+            CCDIv1.7.2:
+            -   file_url_in_cds:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   file_url:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   file_url:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   file_url_in_cds:
+                    Parents: methylation_array_file
+        dcf_indexd_guid:
+            CCDIv1.7.2:
+            -   dcf_indexd_guid:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   dcf_indexd_guid:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   dcf_indexd_guid:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   dcf_indexd_guid:
+                    Parents: methylation_array_file
+        file_mapping_level:
+            CCDIv1.7.2:
+            -   file_mapping_level:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   file_mapping_level:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   file_mapping_level:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   file_mapping_level:
+                    Parents: methylation_array_file
+        methylation_platform:
+            CCDIv1.7.2:
+            -   methylation_platform:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   methylation_platform:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   methylation_platform:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   methylation_platform:
+                    Parents: methylation_array_file
+        reporter_label:
+            CCDIv1.7.2:
+            -   reporter_label:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   reporter_label:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   reporter_label:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   reporter_label:
+                    Parents: methylation_array_file
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   id:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   id:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   id:
+                    Parents: methylation_array_file
+        acl:
+            CCDIv1.7.2:
+            -   acl:
+                    Parents: study
+            CCDIv1.9.1:
+            -   acl:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   acl:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   acl:
+                    Parents: study
+        file_access:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   file_access:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   file_access:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        authz:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   authz:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   authz:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        sample.sample_id:
+            CCDIv1.7.2:
+            -   sample.sample_id:
+                    Parents: methylation_array_file
+            CCDIv1.9.1:
+            -   sample.sample_id:
+                    Parents: methylation_array_file
+            CCDIv2.0.0:
+            -   sample.sample_id:
+                    Parents: methylation_array_file
+            CCDIv1.8.0:
+            -   sample.sample_id:
+                    Parents: methylation_array_file
+        data_category:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   data_category:
+                    Parents: methylation_array_file
+        crdc_id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   crdc_id:
+                    Parents: methylation_array_file
+    participant:
+        participant_id:
+            CCDIv1.7.2:
+            -   participant_id:
+                    Parents: participant
+            CCDIv1.9.1:
+            -   participant_id:
+                    Parents: participant
+            CCDIv2.0.0:
+            -   participant_id:
+                    Parents: participant
+            CCDIv1.8.0:
+            -   participant_id:
+                    Parents: participant
+        race:
+            CCDIv1.7.2:
+            -   race:
+                    Parents: participant
+            -   ethnicity:
+                    Parents: participant
+            CCDIv1.9.1:
+            -   race:
+                    Parents: participant
+            CCDIv2.0.0:
+            -   race:
+                    Parents: participant
+            CCDIv1.8.0:
+            -   race:
+                    Parents: participant
+        sex_at_birth:
+            CCDIv1.7.2:
+            -   sex_at_birth:
+                    Parents: participant
+            CCDIv1.9.1:
+            -   sex_at_birth:
+                    Parents: participant
+            CCDIv2.0.0:
+            -   sex_at_birth:
+                    Parents: participant
+            CCDIv1.8.0:
+            -   sex_at_birth:
+                    Parents: participant
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: participant
+            CCDIv1.9.1:
+            -   id:
+                    Parents: participant
+            CCDIv2.0.0:
+            -   id:
+                    Parents: participant
+            CCDIv1.8.0:
+            -   id:
+                    Parents: participant
+        study.study_id:
+            CCDIv1.7.2:
+            -   study.study_id:
+                    Parents: participant
+            CCDIv1.9.1:
+            -   study.study_id:
+                    Parents: participant
+            CCDIv2.0.0:
+            -   study.study_id:
+                    Parents: participant
+            CCDIv1.8.0:
+            -   study.study_id:
+                    Parents: participant
+        crdc_id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   crdc_id:
+                    Parents: participant
+    synonym:
+        synonym_id:
+            CCDIv1.7.2:
+            -   alternate_participant_id:
+                    Parents: participant
+            -   alternate_sample_id:
+                    Parents: sample
+            -   synonym_id:
+                    Parents: synonym
+            CCDIv1.9.1:
+            -   synonym_id:
+                    Parents: synonym
+            CCDIv2.0.0:
+            -   synonym_id:
+                    Parents: synonym
+            CCDIv1.8.0:
+            -   synonym_id:
+                    Parents: synonym
+        repository_of_synonym_id:
+            CCDIv1.7.2:
+            -   repository_of_synonym_id:
+                    Parents: synonym
+            CCDIv1.9.1:
+            -   repository_of_synonym_id:
+                    Parents: synonym
+            CCDIv2.0.0:
+            -   repository_of_synonym_id:
+                    Parents: synonym
+            CCDIv1.8.0:
+            -   repository_of_synonym_id:
+                    Parents: synonym
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: synonym
+            CCDIv1.9.1:
+            -   id:
+                    Parents: synonym
+            CCDIv2.0.0:
+            -   id:
+                    Parents: synonym
+            CCDIv1.8.0:
+            -   id:
+                    Parents: synonym
+        sample.sample_id:
+            CCDIv1.7.2:
+            -   sample.sample_id:
+                    Parents: synonym
+            CCDIv1.9.1:
+            -   sample.sample_id:
+                    Parents: synonym
+            CCDIv2.0.0:
+            -   sample.sample_id:
+                    Parents: synonym
+            CCDIv1.8.0:
+            -   sample.sample_id:
+                    Parents: synonym
+        participant.participant_id:
+            CCDIv1.7.2:
+            -   participant.participant_id:
+                    Parents: synonym
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: synonym
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: synonym
+            CCDIv1.8.0:
+            -   participant.participant_id:
+                    Parents: synonym
+        study.study_id:
+            CCDIv1.7.2:
+            -   study.study_id:
+                    Parents: synonym
+            CCDIv1.9.1:
+            -   study.study_id:
+                    Parents: synonym
+            CCDIv2.0.0:
+            -   study.study_id:
+                    Parents: synonym
+            CCDIv1.8.0:
+            -   study.study_id:
+                    Parents: synonym
+        associated_id:
+            CCDIv2.0.0:
+            -   null:
+                    Parents: null
+        domain_description:
+            CCDIv2.0.0:
+            -   null:
+                    Parents: null
+        domain_category:
+            CCDIv2.0.0:
+            -   null:
+                    Parents: null
+        data_location:
+            CCDIv2.0.0:
+            -   null:
+                    Parents: null
+    pathology_file:
+        pathology_file_id:
+            CCDIv1.7.2:
+            -   pathology_file_id:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   pathology_file_id:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   pathology_file_id:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   pathology_file_id:
+                    Parents: pathology_file
+        file_name:
+            CCDIv1.7.2:
+            -   file_name:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   file_name:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   file_name:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   file_name:
+                    Parents: pathology_file
+        file_type:
+            CCDIv1.7.2:
+            -   file_type:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   file_type:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   file_type:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   file_type:
+                    Parents: pathology_file
+        file_description:
+            CCDIv1.7.2:
+            -   file_description:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   file_description:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   file_description:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   file_description:
+                    Parents: pathology_file
+        file_size:
+            CCDIv1.7.2:
+            -   file_size:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   file_size:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   file_size:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   file_size:
+                    Parents: pathology_file
+        md5sum:
+            CCDIv1.7.2:
+            -   md5sum:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   md5sum:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   md5sum:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   md5sum:
+                    Parents: pathology_file
+        file_url:
+            CCDIv1.7.2:
+            -   file_url_in_cds:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   file_url:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   file_url:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   file_url_in_cds:
+                    Parents: pathology_file
+        dcf_indexd_guid:
+            CCDIv1.7.2:
+            -   dcf_indexd_guid:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   dcf_indexd_guid:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   dcf_indexd_guid:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   dcf_indexd_guid:
+                    Parents: pathology_file
+        image_modality:
+            CCDIv1.7.2:
+            -   image_modality:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   image_modality:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   image_modality:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   image_modality:
+                    Parents: pathology_file
+        license:
+            CCDIv1.7.2:
+            -   license:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   license:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   license:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   license:
+                    Parents: pathology_file
+        magnification:
+            CCDIv1.7.2:
+            -   magnification:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   magnification:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   magnification:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   magnification:
+                    Parents: pathology_file
+        fixation_embedding_method:
+            CCDIv1.7.2:
+            -   fixation_embedding_method:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   fixation_embedding_method:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   fixation_embedding_method:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   fixation_embedding_method:
+                    Parents: pathology_file
+        staining_method:
+            CCDIv1.7.2:
+            -   staining_method:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   staining_method:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   staining_method:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   staining_method:
+                    Parents: pathology_file
+        deidentification_method:
+            CCDIv1.7.2:
+            -   deidentification_method:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   deidentification_method:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   deidentification_method:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   deidentification_method:
+                    Parents: pathology_file
+        percent_tumor:
+            CCDIv1.7.2:
+            -   percent_tumor:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   percent_tumor:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   percent_tumor:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   percent_tumor:
+                    Parents: pathology_file
+        percent_necrosis:
+            CCDIv1.7.2:
+            -   percent_necrosis:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   percent_necrosis:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   percent_necrosis:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   percent_necrosis:
+                    Parents: pathology_file
+        file_mapping_level:
+            CCDIv1.7.2:
+            -   file_mapping_level:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   file_mapping_level:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   file_mapping_level:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   file_mapping_level:
+                    Parents: pathology_file
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   id:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   id:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   id:
+                    Parents: pathology_file
+        acl:
+            CCDIv1.7.2:
+            -   acl:
+                    Parents: study
+            CCDIv1.9.1:
+            -   acl:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   acl:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   acl:
+                    Parents: study
+        file_access:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   file_access:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   file_access:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        authz:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   authz:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   authz:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        sample.sample_id:
+            CCDIv1.7.2:
+            -   sample.sample_id:
+                    Parents: pathology_file
+            CCDIv1.9.1:
+            -   sample.sample_id:
+                    Parents: pathology_file
+            CCDIv2.0.0:
+            -   sample.sample_id:
+                    Parents: pathology_file
+            CCDIv1.8.0:
+            -   sample.sample_id:
+                    Parents: pathology_file
+        data_category:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   data_category:
+                    Parents: pathology_file
+        crdc_id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   crdc_id:
+                    Parents: pathology_file
+        slim_url:
+            CCDIv2.0.0:
+            -   null:
+                    Parents: null
+    pdx:
+        pdx_id:
+            CCDIv1.7.2:
+            -   pdx_id:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   pdx_id:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   pdx_id:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   pdx_id:
+                    Parents: pdx
+        model_id:
+            CCDIv1.7.2:
+            -   model_id:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   model_id:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   model_id:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   model_id:
+                    Parents: pdx
+        mouse_strain:
+            CCDIv1.7.2:
+            -   mouse_strain:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   mouse_strain:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   mouse_strain:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   mouse_strain:
+                    Parents: pdx
+        sample_type_for_implantation:
+            CCDIv1.7.2:
+            -   sample_type_for_implantation:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   sample_type_for_implantation:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   sample_type_for_implantation:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   sample_type_for_implantation:
+                    Parents: pdx
+        implantation_type:
+            CCDIv1.7.2:
+            -   implantation_type:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   implantation_type:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   implantation_type:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   implantation_type:
+                    Parents: pdx
+        implantation_site:
+            CCDIv1.7.2:
+            -   implantation_site:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   implantation_site:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   implantation_site:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   implantation_site:
+                    Parents: pdx
+        tumor_confirmed_not_to_be_mus_or_ebv_origin:
+            CCDIv1.7.2:
+            -   tumor_confirmed_not_to_be_mus_or_ebv_origin:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   tumor_confirmed_not_to_be_mus_or_ebv_origin:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   tumor_confirmed_not_to_be_mus_or_ebv_origin:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   tumor_confirmed_not_to_be_mus_or_ebv_origin:
+                    Parents: pdx
+        is_tumor_from_untreated_patient:
+            CCDIv1.7.2:
+            -   is_tumor_from_untreated_patient:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   is_tumor_from_untreated_patient:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   is_tumor_from_untreated_patient:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   is_tumor_from_untreated_patient:
+                    Parents: pdx
+        passage_number:
+            CCDIv1.7.2:
+            -   passage_number:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   passage_number:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   passage_number:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   passage_number:
+                    Parents: pdx
+        passages_tested:
+            CCDIv1.7.2:
+            -   passages_tested:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   passages_tested:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   passages_tested:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   passages_tested:
+                    Parents: pdx
+        validation_technique:
+            CCDIv1.7.2:
+            -   validation_technique:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   validation_technique:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   validation_technique:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   validation_technique:
+                    Parents: pdx
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   id:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   id:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   id:
+                    Parents: pdx
+        sample.sample_id:
+            CCDIv1.7.2:
+            -   sample.sample_id:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   sample.sample_id:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   sample.sample_id:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   sample.sample_id:
+                    Parents: pdx
+        study.study_id:
+            CCDIv1.7.2:
+            -   study.study_id:
+                    Parents: pdx
+            CCDIv1.9.1:
+            -   study.study_id:
+                    Parents: pdx
+            CCDIv2.0.0:
+            -   study.study_id:
+                    Parents: pdx
+            CCDIv1.8.0:
+            -   study.study_id:
+                    Parents: pdx
+    publication:
+        publication_id:
+            CCDIv1.7.2:
+            -   publication_id:
+                    Parents: publication
+            CCDIv1.9.1:
+            -   publication_id:
+                    Parents: publication
+            CCDIv2.0.0:
+            -   publication_id:
+                    Parents: publication
+            CCDIv1.8.0:
+            -   publication_id:
+                    Parents: publication
+        pubmed_id:
+            CCDIv1.7.2:
+            -   pubmed_id:
+                    Parents: publication
+            CCDIv1.9.1:
+            -   pubmed_id:
+                    Parents: publication
+            CCDIv2.0.0:
+            -   pubmed_id:
+                    Parents: publication
+            CCDIv1.8.0:
+            -   pubmed_id:
+                    Parents: publication
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: publication
+            CCDIv1.9.1:
+            -   id:
+                    Parents: publication
+            CCDIv2.0.0:
+            -   id:
+                    Parents: publication
+            CCDIv1.8.0:
+            -   id:
+                    Parents: publication
+        study.study_id:
+            CCDIv1.7.2:
+            -   study.study_id:
+                    Parents: publication
+            CCDIv1.9.1:
+            -   study.study_id:
+                    Parents: publication
+            CCDIv2.0.0:
+            -   study.study_id:
+                    Parents: publication
+            CCDIv1.8.0:
+            -   study.study_id:
+                    Parents: publication
+    radiology_file:
+        radiology_file_id:
+            CCDIv1.7.2:
+            -   radiology_file_id:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   radiology_file_id:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   radiology_file_id:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   radiology_file_id:
+                    Parents: radiology_file
+        file_name:
+            CCDIv1.7.2:
+            -   file_name:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   file_name:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   file_name:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   file_name:
+                    Parents: radiology_file
+        file_type:
+            CCDIv1.7.2:
+            -   file_type:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   file_type:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   file_type:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   file_type:
+                    Parents: radiology_file
+        file_description:
+            CCDIv1.7.2:
+            -   file_description:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   file_description:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   file_description:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   file_description:
+                    Parents: radiology_file
+        file_size:
+            CCDIv1.7.2:
+            -   file_size:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   file_size:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   file_size:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   file_size:
+                    Parents: radiology_file
+        md5sum:
+            CCDIv1.7.2:
+            -   md5sum:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   md5sum:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   md5sum:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   md5sum:
+                    Parents: radiology_file
+        file_url:
+            CCDIv1.7.2:
+            -   file_url_in_cds:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   file_url:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   file_url:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   file_url_in_cds:
+                    Parents: radiology_file
+        dcf_indexd_guid:
+            CCDIv1.7.2:
+            -   dcf_indexd_guid:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   dcf_indexd_guid:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   dcf_indexd_guid:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   dcf_indexd_guid:
+                    Parents: radiology_file
+        anatomic_site:
+            CCDIv1.7.2:
+            -   anatomic_site:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   anatomic_site:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   anatomic_site:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   anatomic_site:
+                    Parents: radiology_file
+        participant_age_at_imaging:
+            CCDIv1.7.2:
+            -   participant_age_at_imaging:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   participant_age_at_imaging:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   participant_age_at_imaging:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   participant_age_at_imaging:
+                    Parents: radiology_file
+        image_modality:
+            CCDIv1.7.2:
+            -   image_modality:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   image_modality:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   image_modality:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   image_modality:
+                    Parents: radiology_file
+        deidentification_method:
+            CCDIv1.7.2:
+            -   deidentification_method:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   deidentification_method:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   deidentification_method:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   deidentification_method:
+                    Parents: radiology_file
+        magnetic_field_strength:
+            CCDIv1.7.2:
+            -   magnetic_field_strength:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   magnetic_field_strength:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   magnetic_field_strength:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   magnetic_field_strength:
+                    Parents: radiology_file
+        scanner_manufacturer:
+            CCDIv1.7.2:
+            -   scanner_manufacturer:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   scanner_manufacturer:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   scanner_manufacturer:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   scanner_manufacturer:
+                    Parents: radiology_file
+        scanner_model:
+            CCDIv1.7.2:
+            -   scanner_model:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   scanner_model:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   scanner_model:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   scanner_model:
+                    Parents: radiology_file
+        imaging_frequency:
+            CCDIv1.7.2:
+            -   imaging_frequency:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   imaging_frequency:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   imaging_frequency:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   imaging_frequency:
+                    Parents: radiology_file
+        repetition_time:
+            CCDIv1.7.2:
+            -   repetition_time:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   repetition_time:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   repetition_time:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   repetition_time:
+                    Parents: radiology_file
+        echo_time:
+            CCDIv1.7.2:
+            -   echo_time:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   echo_time:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   echo_time:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   echo_time:
+                    Parents: radiology_file
+        inversion_time:
+            CCDIv1.7.2:
+            -   inversion_time:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   inversion_time:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   inversion_time:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   inversion_time:
+                    Parents: radiology_file
+        flip_angle:
+            CCDIv1.7.2:
+            -   flip_angle:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   flip_angle:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   flip_angle:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   flip_angle:
+                    Parents: radiology_file
+        pixel_spacing:
+            CCDIv1.7.2:
+            -   pixel_spacing:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   pixel_spacing:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   pixel_spacing:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   pixel_spacing:
+                    Parents: radiology_file
+        slice_thickness:
+            CCDIv1.7.2:
+            -   slice_thickness:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   slice_thickness:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   slice_thickness:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   slice_thickness:
+                    Parents: radiology_file
+        echoPulseSequenceCategoryCode:
+            CCDIv1.7.2:
+            -   echoPulseSequenceCategoryCode:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   echoPulseSequenceCategoryCode:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   echoPulseSequenceCategoryCode:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   echoPulseSequenceCategoryCode:
+                    Parents: radiology_file
+        diffusionBValue:
+            CCDIv1.7.2:
+            -   diffusionBValue:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   diffusionBValue:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   diffusionBValue:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   diffusionBValue:
+                    Parents: radiology_file
+        diffusionDirectionalityCode:
+            CCDIv1.7.2:
+            -   diffusionDirectionalityCode:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   diffusionDirectionalityCode:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   diffusionDirectionalityCode:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   diffusionDirectionalityCode:
+                    Parents: radiology_file
+        resonantNucleusCode:
+            CCDIv1.7.2:
+            -   resonantNucleusCode:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   resonantNucleusCode:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   resonantNucleusCode:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   resonantNucleusCode:
+                    Parents: radiology_file
+        acquisitionContrastCode:
+            CCDIv1.7.2:
+            -   acquisitionContrastCode:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   acquisitionContrastCode:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   acquisitionContrastCode:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   acquisitionContrastCode:
+                    Parents: radiology_file
+        inversionRecoveryIndicator:
+            CCDIv1.7.2:
+            -   inversionRecoveryIndicator:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   inversionRecoveryIndicator:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   inversionRecoveryIndicator:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   inversionRecoveryIndicator:
+                    Parents: radiology_file
+        pulseSequenceName:
+            CCDIv1.7.2:
+            -   pulseSequenceName:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   pulseSequenceName:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   pulseSequenceName:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   pulseSequenceName:
+                    Parents: radiology_file
+        multipleSpinEchoIndicator:
+            CCDIv1.7.2:
+            -   multipleSpinEchoIndicator:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   multipleSpinEchoIndicator:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   multipleSpinEchoIndicator:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   multipleSpinEchoIndicator:
+                    Parents: radiology_file
+        phaseContrastIndicator:
+            CCDIv1.7.2:
+            -   phaseContrastIndicator:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   phaseContrastIndicator:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   phaseContrastIndicator:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   phaseContrastIndicator:
+                    Parents: radiology_file
+        timeOfFlightContrastIndicator:
+            CCDIv1.7.2:
+            -   timeOfFlightContrastIndicator:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   timeOfFlightContrastIndicator:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   timeOfFlightContrastIndicator:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   timeOfFlightContrastIndicator:
+                    Parents: radiology_file
+        arterialSpinLabelingContrastCode:
+            CCDIv1.7.2:
+            -   arterialSpinLabelingContrastCode:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   arterialSpinLabelingContrastCode:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   arterialSpinLabelingContrastCode:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   arterialSpinLabelingContrastCode:
+                    Parents: radiology_file
+        steadyStatePulseSequenceCode:
+            CCDIv1.7.2:
+            -   steadyStatePulseSequenceCode:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   steadyStatePulseSequenceCode:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   steadyStatePulseSequenceCode:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   steadyStatePulseSequenceCode:
+                    Parents: radiology_file
+        echoPlanarPulseSequenceIndicator:
+            CCDIv1.7.2:
+            -   echoPlanarPulseSequenceIndicator:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   echoPlanarPulseSequenceIndicator:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   echoPlanarPulseSequenceIndicator:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   echoPlanarPulseSequenceIndicator:
+                    Parents: radiology_file
+        saturationRecoveryIndicator:
+            CCDIv1.7.2:
+            -   saturationRecoveryIndicator:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   saturationRecoveryIndicator:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   saturationRecoveryIndicator:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   saturationRecoveryIndicator:
+                    Parents: radiology_file
+        spectrallySelectedSuppressionCode:
+            CCDIv1.7.2:
+            -   spectrallySelectedSuppressionCode:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   spectrallySelectedSuppressionCode:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   spectrallySelectedSuppressionCode:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   spectrallySelectedSuppressionCode:
+                    Parents: radiology_file
+        mrImageReconstructionProtocolElement:
+            CCDIv1.7.2:
+            -   mrImageReconstructionProtocolElement:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   mrImageReconstructionProtocolElement:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   mrImageReconstructionProtocolElement:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   mrImageReconstructionProtocolElement:
+                    Parents: radiology_file
+        complexImageComponentCode:
+            CCDIv1.7.2:
+            -   complexImageComponentCode:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   complexImageComponentCode:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   complexImageComponentCode:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   complexImageComponentCode:
+                    Parents: radiology_file
+        file_mapping_level:
+            CCDIv1.7.2:
+            -   file_mapping_level:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   file_mapping_level:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   file_mapping_level:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   file_mapping_level:
+                    Parents: radiology_file
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   id:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   id:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   id:
+                    Parents: radiology_file
+        acl:
+            CCDIv1.7.2:
+            -   acl:
+                    Parents: study
+            CCDIv1.9.1:
+            -   acl:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   acl:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   acl:
+                    Parents: study
+        file_access:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   file_access:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   file_access:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        authz:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   authz:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   authz:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        participant.participant_id:
+            CCDIv1.7.2:
+            -   participant.participant_id:
+                    Parents: radiology_file
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: radiology_file
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: radiology_file
+            CCDIv1.8.0:
+            -   participant.participant_id:
+                    Parents: radiology_file
+        data_category:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   data_category:
+                    Parents: radiology_file
+        crdc_id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   crdc_id:
+                    Parents: radiology_file
+    sample:
+        sample_id:
+            CCDIv1.7.2:
+            -   sample_id:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   sample_id:
+                    Parents: sample
+            CCDIv2.0.0:
+            -   sample_id:
+                    Parents: sample
+            CCDIv1.8.0:
+            -   sample_id:
+                    Parents: sample
+        anatomic_site:
+            CCDIv1.7.2:
+            -   anatomic_site:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   anatomic_site:
+                    Parents: sample
+            CCDIv2.0.0:
+            -   anatomic_site:
+                    Parents: sample
+            CCDIv1.8.0:
+            -   anatomic_site:
+                    Parents: sample
+        participant_age_at_collection:
+            CCDIv1.7.2:
+            -   participant_age_at_collection:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   participant_age_at_collection:
+                    Parents: sample
+            CCDIv2.0.0:
+            -   participant_age_at_collection:
+                    Parents: sample
+            CCDIv1.8.0:
+            -   participant_age_at_collection:
+                    Parents: sample
+        sample_tumor_status:
+            CCDIv1.7.2:
+            -   sample_tumor_status:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   sample_tumor_status:
+                    Parents: sample
+            CCDIv2.0.0:
+            -   sample_tumor_status:
+                    Parents: sample
+            CCDIv1.8.0:
+            -   sample_tumor_status:
+                    Parents: sample
+        tumor_classification:
+            CCDIv1.7.2:
+            -   tumor_classification:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   tumor_classification:
+                    Parents: sample
+            CCDIv2.0.0:
+            -   tumor_classification:
+                    Parents: sample
+            CCDIv1.8.0:
+            -   tumor_classification:
+                    Parents: sample
+        sample_description:
+            CCDIv1.7.2:
+            -   sample_description:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   sample_description:
+                    Parents: sample
+            CCDIv2.0.0:
+            -   sample_description:
+                    Parents: sample
+            CCDIv1.8.0:
+            -   sample_description:
+                    Parents: sample
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   id:
+                    Parents: sample
+            CCDIv2.0.0:
+            -   id:
+                    Parents: sample
+            CCDIv1.8.0:
+            -   id:
+                    Parents: sample
+        pdx.pdx_id:
+            CCDIv1.7.2:
+            -   pdx.pdx_id:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   pdx.pdx_id:
+                    Parents: sample
+            CCDIv2.0.0:
+            -   pdx.pdx_id:
+                    Parents: sample
+            CCDIv1.8.0:
+            -   pdx.pdx_id:
+                    Parents: sample
+        cell_line.cell_line_id:
+            CCDIv1.7.2:
+            -   cell_line.cell_line_id:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   cell_line.cell_line_id:
+                    Parents: sample
+            CCDIv2.0.0:
+            -   cell_line.cell_line_id:
+                    Parents: sample
+            CCDIv1.8.0:
+            -   cell_line.cell_line_id:
+                    Parents: sample
+        participant.participant_id:
+            CCDIv1.7.2:
+            -   participant.participant_id:
+                    Parents: sample
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: sample
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: sample
+            CCDIv1.8.0:
+            -   participant.participant_id:
+                    Parents: sample
+        crdc_id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   crdc_id:
+                    Parents: sample
+    sequencing_file:
+        sequencing_file_id:
+            CCDIv1.7.2:
+            -   single_cell_sequencing_file_id:
+                    Parents: single_cell_sequencing_file
+            -   sequencing_file_id:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   sequencing_file_id:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   sequencing_file_id:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   sequencing_file_id:
+                    Parents: sequencing_file
+        file_name:
+            CCDIv1.7.2:
+            -   file_name:
+                    Parents: single_cell_sequencing_file
+            -   file_name:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   file_name:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   file_name:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   file_name:
+                    Parents: sequencing_file
+        file_type:
+            CCDIv1.7.2:
+            -   file_type:
+                    Parents: single_cell_sequencing_file
+            -   file_type:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   file_type:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   file_type:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   file_type:
+                    Parents: sequencing_file
+        file_description:
+            CCDIv1.7.2:
+            -   file_description:
+                    Parents: single_cell_sequencing_file
+            -   file_description:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   file_description:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   file_description:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   file_description:
+                    Parents: sequencing_file
+        file_size:
+            CCDIv1.7.2:
+            -   file_size:
+                    Parents: single_cell_sequencing_file
+            -   file_size:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   file_size:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   file_size:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   file_size:
+                    Parents: sequencing_file
+        md5sum:
+            CCDIv1.7.2:
+            -   md5sum:
+                    Parents: single_cell_sequencing_file
+            -   md5sum:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   md5sum:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   md5sum:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   md5sum:
+                    Parents: sequencing_file
+        file_url:
+            CCDIv1.7.2:
+            -   file_url_in_cds:
+                    Parents: single_cell_sequencing_file
+            -   file_url_in_cds:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   file_url:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   file_url:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   file_url_in_cds:
+                    Parents: sequencing_file
+        dcf_indexd_guid:
+            CCDIv1.7.2:
+            -   dcf_indexd_guid:
+                    Parents: single_cell_sequencing_file
+            -   dcf_indexd_guid:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   dcf_indexd_guid:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   dcf_indexd_guid:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   dcf_indexd_guid:
+                    Parents: sequencing_file
+        library_id:
+            CCDIv1.7.2:
+            -   library_id:
+                    Parents: single_cell_sequencing_file
+            -   library_id:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   library_id:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   library_id:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   library_id:
+                    Parents: sequencing_file
+        library_selection:
+            CCDIv1.7.2:
+            -   library_selection:
+                    Parents: single_cell_sequencing_file
+            -   library_selection:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   library_selection:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   library_selection:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   library_selection:
+                    Parents: sequencing_file
+        library_strategy:
+            CCDIv1.7.2:
+            -   library_strategy:
+                    Parents: single_cell_sequencing_file
+            -   library_strategy:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   library_strategy:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   library_strategy:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   library_strategy:
+                    Parents: sequencing_file
+        library_layout:
+            CCDIv1.7.2:
+            -   library_layout:
+                    Parents: single_cell_sequencing_file
+            -   library_layout:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   library_layout:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   library_layout:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   library_layout:
+                    Parents: sequencing_file
+        library_source_molecule:
+            CCDIv1.7.2:
+            -   library_source:
+                    Parents: single_cell_sequencing_file
+            -   library_source:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   library_source_molecule:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   library_source_molecule:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   library_source_molecule:
+                    Parents: sequencing_file
+        number_of_bp:
+            CCDIv1.7.2:
+            -   number_of_bp:
+                    Parents: single_cell_sequencing_file
+            -   number_of_bp:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   number_of_bp:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   number_of_bp:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   number_of_bp:
+                    Parents: sequencing_file
+        number_of_reads:
+            CCDIv1.7.2:
+            -   number_of_reads:
+                    Parents: single_cell_sequencing_file
+            -   number_of_reads:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   number_of_reads:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   number_of_reads:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   number_of_reads:
+                    Parents: sequencing_file
+        design_description:
+            CCDIv1.7.2:
+            -   design_description:
+                    Parents: single_cell_sequencing_file
+            -   design_description:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   design_description:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   design_description:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   design_description:
+                    Parents: sequencing_file
+        platform:
+            CCDIv1.7.2:
+            -   platform:
+                    Parents: single_cell_sequencing_file
+            -   platform:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   platform:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   platform:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   platform:
+                    Parents: sequencing_file
+        instrument_model:
+            CCDIv1.7.2:
+            -   instrument_model:
+                    Parents: single_cell_sequencing_file
+            -   instrument_model:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   instrument_model:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   instrument_model:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   instrument_model:
+                    Parents: sequencing_file
+        avg_read_length:
+            CCDIv1.7.2:
+            -   avg_read_length:
+                    Parents: single_cell_sequencing_file
+            -   avg_read_length:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   avg_read_length:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   avg_read_length:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   avg_read_length:
+                    Parents: sequencing_file
+        coverage:
+            CCDIv1.7.2:
+            -   coverage:
+                    Parents: single_cell_sequencing_file
+            -   coverage:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   coverage:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   coverage:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   coverage:
+                    Parents: sequencing_file
+        reference_genome_assembly:
+            CCDIv1.7.2:
+            -   reference_genome_assembly:
+                    Parents: single_cell_sequencing_file
+            -   reference_genome_assembly:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   reference_genome_assembly:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   reference_genome_assembly:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   reference_genome_assembly:
+                    Parents: sequencing_file
+        checksum_algorithm:
+            CCDIv1.7.2:
+            -   checksum_algorithm:
+                    Parents: single_cell_sequencing_file
+            -   checksum_algorithm:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   checksum_algorithm:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   checksum_algorithm:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   checksum_algorithm:
+                    Parents: sequencing_file
+        checksum_value:
+            CCDIv1.7.2:
+            -   checksum_value:
+                    Parents: single_cell_sequencing_file
+            -   checksum_value:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   checksum_value:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   checksum_value:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   checksum_value:
+                    Parents: sequencing_file
+        custom_assembly_fasta_file_for_alignment:
+            CCDIv1.7.2:
+            -   custom_assembly_fasta_file_for_alignment:
+                    Parents: single_cell_sequencing_file
+            -   custom_assembly_fasta_file_for_alignment:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   custom_assembly_fasta_file_for_alignment:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   custom_assembly_fasta_file_for_alignment:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   custom_assembly_fasta_file_for_alignment:
+                    Parents: sequencing_file
+        file_mapping_level:
+            CCDIv1.7.2:
+            -   file_mapping_level:
+                    Parents: single_cell_sequencing_file
+            -   file_mapping_level:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   file_mapping_level:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   file_mapping_level:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   file_mapping_level:
+                    Parents: sequencing_file
+        sequence_alignment_software:
+            CCDIv1.7.2:
+            -   sequence_alignment_software:
+                    Parents: single_cell_sequencing_file
+            -   sequence_alignment_software:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   sequence_alignment_software:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   sequence_alignment_software:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   sequence_alignment_software:
+                    Parents: sequencing_file
+        cDNA_read:
+            CCDIv1.7.2:
+            -   cDNA_read:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   cDNA_read:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   cDNA_read:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   cDNA_read:
+                    Parents: sequencing_file
+        cDNA_read_size:
+            CCDIv1.7.2:
+            -   cDNA_read_size:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   cDNA_read_size:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   cDNA_read_size:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   cDNA_read_size:
+                    Parents: sequencing_file
+        cDNA_read_offset:
+            CCDIv1.7.2:
+            -   cDNA_read_offset:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   cDNA_read_offset:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   cDNA_read_offset:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   cDNA_read_offset:
+                    Parents: sequencing_file
+        cell_barcode_offset:
+            CCDIv1.7.2:
+            -   cell_barcode_offset:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   cell_barcode_offset:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   cell_barcode_offset:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   cell_barcode_offset:
+                    Parents: sequencing_file
+        cell_barcode_read:
+            CCDIv1.7.2:
+            -   cell_barcode_read:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   cell_barcode_read:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   cell_barcode_read:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   cell_barcode_read:
+                    Parents: sequencing_file
+        cell_barcode_size:
+            CCDIv1.7.2:
+            -   cell_barcode_size:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   cell_barcode_size:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   cell_barcode_size:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   cell_barcode_size:
+                    Parents: sequencing_file
+        single_cell_entity:
+            CCDIv1.7.2:
+            -   single_cell_entity:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   single_cell_entity:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   single_cell_entity:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   single_cell_entity:
+                    Parents: sequencing_file
+        dissociation_method:
+            CCDIv1.7.2:
+            -   dissociation_method:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   dissociation_method:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   dissociation_method:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   dissociation_method:
+                    Parents: sequencing_file
+        end_bias:
+            CCDIv1.7.2:
+            -   end_bias:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   end_bias:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   end_bias:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   end_bias:
+                    Parents: sequencing_file
+        total_number_of_input_cells:
+            CCDIv1.7.2:
+            -   total_number_of_input_cells:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   total_number_of_input_cells:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   total_number_of_input_cells:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   total_number_of_input_cells:
+                    Parents: sequencing_file
+        library_construction_method:
+            CCDIv1.7.2:
+            -   library_construction_method:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   library_construction_method:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   library_construction_method:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   library_construction_method:
+                    Parents: sequencing_file
+        library_strand:
+            CCDIv1.7.2:
+            -   library_strand:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   library_strand:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   library_strand:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   library_strand:
+                    Parents: sequencing_file
+        protocols_link:
+            CCDIv1.7.2:
+            -   protocols_link:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   protocols_link:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   protocols_link:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   protocols_link:
+                    Parents: sequencing_file
+        reverse_transcription_primer:
+            CCDIv1.7.2:
+            -   reverse_transcription_primer:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   reverse_transcription_primer:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   reverse_transcription_primer:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   reverse_transcription_primer:
+                    Parents: sequencing_file
+        spike_in:
+            CCDIv1.7.2:
+            -   spike_in:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   spike_in:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   spike_in:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   spike_in:
+                    Parents: sequencing_file
+        UMI_barcode_offset:
+            CCDIv1.7.2:
+            -   UMI_barcode_offset:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   UMI_barcode_offset:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   UMI_barcode_offset:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   UMI_barcode_offset:
+                    Parents: sequencing_file
+        UMI_barcode_read:
+            CCDIv1.7.2:
+            -   UMI_barcode_read:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   UMI_barcode_read:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   UMI_barcode_read:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   UMI_barcode_read:
+                    Parents: sequencing_file
+        UMI_barcode_size:
+            CCDIv1.7.2:
+            -   UMI_barcode_size:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   UMI_barcode_size:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   UMI_barcode_size:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   UMI_barcode_size:
+                    Parents: sequencing_file
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: single_cell_sequencing_file
+            -   id:
+                    Parents: sequencing_file
+            CCDIv1.9.1:
+            -   id:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   id:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   id:
+                    Parents: sequencing_file
+        acl:
+            CCDIv1.7.2:
+            -   acl:
+                    Parents: study
+            CCDIv1.9.1:
+            -   acl:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   acl:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   acl:
+                    Parents: study
+        file_access:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   file_access:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   file_access:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        authz:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   authz:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   authz:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   null:
+                    Parents: null
+        library_source_material:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   library_source_material:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   library_source_material:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   library_source_material:
+                    Parents: sequencing_file
+        sample.sample_id:
+            CCDIv1.7.2:
+            -   sample.sample_id:
+                    Parents: sequencing_file
+            -   sample.sample_id:
+                    Parents: single_cell_sequencing_file
+            CCDIv1.9.1:
+            -   sample.sample_id:
+                    Parents: sequencing_file
+            CCDIv2.0.0:
+            -   sample.sample_id:
+                    Parents: sequencing_file
+            CCDIv1.8.0:
+            -   sample.sample_id:
+                    Parents: sequencing_file
+        data_category:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   data_category:
+                    Parents: sequencing_file
+        crdc_id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   crdc_id:
+                    Parents: sequencing_file
+    study:
+        study_id:
+            CCDIv1.7.2:
+            -   study_id:
+                    Parents: study
+            CCDIv1.9.1:
+            -   study_id:
+                    Parents: study
+            CCDIv2.0.0:
+            -   study_id:
+                    Parents: study
+            CCDIv1.8.0:
+            -   study_id:
+                    Parents: study
+        dbgap_accession:
+            CCDIv1.7.2:
+            -   phs_accession:
+                    Parents: study
+            CCDIv1.9.1:
+            -   dbgap_accession:
+                    Parents: study
+            CCDIv2.0.0:
+            -   dbgap_accession:
+                    Parents: study
+            CCDIv1.8.0:
+            -   dbgap_accession:
+                    Parents: study
+        study_name:
+            CCDIv1.7.2:
+            -   study_name:
+                    Parents: study
+            CCDIv1.9.1:
+            -   study_name:
+                    Parents: study
+            CCDIv2.0.0:
+            -   study_name:
+                    Parents: study
+            CCDIv1.8.0:
+            -   study_name:
+                    Parents: study
+        study_acronym:
+            CCDIv1.7.2:
+            -   study_acronym:
+                    Parents: study
+            CCDIv1.9.1:
+            -   study_acronym:
+                    Parents: study
+            CCDIv2.0.0:
+            -   study_acronym:
+                    Parents: study
+            CCDIv1.8.0:
+            -   study_acronym:
+                    Parents: study
+        study_description:
+            CCDIv1.7.2:
+            -   study_description:
+                    Parents: study
+            CCDIv1.9.1:
+            -   study_description:
+                    Parents: study
+            CCDIv2.0.0:
+            -   study_description:
+                    Parents: study
+            CCDIv1.8.0:
+            -   study_description:
+                    Parents: study
+        consent:
+            CCDIv1.7.2:
+            -   consent:
+                    Parents: study
+            CCDIv1.9.1:
+            -   consent:
+                    Parents: study
+            CCDIv2.0.0:
+            -   consent:
+                    Parents: study
+            CCDIv1.8.0:
+            -   consent:
+                    Parents: study
+        consent_number:
+            CCDIv1.7.2:
+            -   consent_number:
+                    Parents: study
+            CCDIv1.9.1:
+            -   consent_number:
+                    Parents: study
+            CCDIv2.0.0:
+            -   consent_number:
+                    Parents: study
+            CCDIv1.8.0:
+            -   consent_number:
+                    Parents: study
+        external_url:
+            CCDIv1.7.2:
+            -   external_url:
+                    Parents: study
+            CCDIv1.9.1:
+            -   external_url:
+                    Parents: study
+            CCDIv2.0.0:
+            -   external_url:
+                    Parents: study
+            CCDIv1.8.0:
+            -   external_url:
+                    Parents: study
+        experimental_strategy_and_data_subtype:
+            CCDIv1.7.2:
+            -   experimental_strategy_and_data_subtype:
+                    Parents: study
+            CCDIv1.9.1:
+            -   experimental_strategy_and_data_subtype:
+                    Parents: study
+            CCDIv2.0.0:
+            -   experimental_strategy_and_data_subtype:
+                    Parents: study
+            CCDIv1.8.0:
+            -   experimental_strategy_and_data_subtype:
+                    Parents: study
+        study_data_types:
+            CCDIv1.7.2:
+            -   study_data_types:
+                    Parents: study
+            CCDIv1.9.1:
+            -   study_data_types:
+                    Parents: study
+            CCDIv2.0.0:
+            -   study_data_types:
+                    Parents: study
+            CCDIv1.8.0:
+            -   study_data_types:
+                    Parents: study
+        size_of_data_being_uploaded:
+            CCDIv1.7.2:
+            -   size_of_data_being_uploaded:
+                    Parents: study
+            CCDIv1.9.1:
+            -   size_of_data_being_uploaded:
+                    Parents: study
+            CCDIv2.0.0:
+            -   size_of_data_being_uploaded:
+                    Parents: study
+            CCDIv1.8.0:
+            -   size_of_data_being_uploaded:
+                    Parents: study
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: study
+            CCDIv1.9.1:
+            -   id:
+                    Parents: study
+            CCDIv2.0.0:
+            -   id:
+                    Parents: study
+            CCDIv1.8.0:
+            -   id:
+                    Parents: study
+        crdc_id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   crdc_id:
+                    Parents: study
+        study_status:
+            CCDIv2.0.0:
+            -   null:
+                    Parents: null
+        study_period_start:
+            CCDIv2.0.0:
+            -   null:
+                    Parents: null
+        study_period_stop:
+            CCDIv2.0.0:
+            -   null:
+                    Parents: null
+    study_admin:
+        study_admin_id:
+            CCDIv1.7.2:
+            -   study_admin_id:
+                    Parents: study_admin
+            CCDIv1.9.1:
+            -   study_admin_id:
+                    Parents: study_admin
+            CCDIv2.0.0:
+            -   study_admin_id:
+                    Parents: study_admin
+            CCDIv1.8.0:
+            -   study_admin_id:
+                    Parents: study_admin
+        organism_species:
+            CCDIv1.7.2:
+            -   organism_species:
+                    Parents: study_admin
+            CCDIv1.9.1:
+            -   organism_species:
+                    Parents: study_admin
+            CCDIv2.0.0:
+            -   organism_species:
+                    Parents: study_admin
+            CCDIv1.8.0:
+            -   organism_species:
+                    Parents: study_admin
+        adult_or_childhood_study:
+            CCDIv1.7.2:
+            -   adult_or_childhood_study:
+                    Parents: study_admin
+            CCDIv1.9.1:
+            -   adult_or_childhood_study:
+                    Parents: study_admin
+            CCDIv2.0.0:
+            -   adult_or_childhood_study:
+                    Parents: study_admin
+            CCDIv1.8.0:
+            -   adult_or_childhood_study:
+                    Parents: study_admin
+        file_types_and_format:
+            CCDIv1.7.2:
+            -   file_types_and_format:
+                    Parents: study_admin
+            CCDIv1.9.1:
+            -   file_types_and_format:
+                    Parents: study_admin
+            CCDIv2.0.0:
+            -   file_types_and_format:
+                    Parents: study_admin
+            CCDIv1.8.0:
+            -   file_types_and_format:
+                    Parents: study_admin
+        number_of_participants:
+            CCDIv1.7.2:
+            -   number_of_participants:
+                    Parents: study_admin
+            CCDIv1.9.1:
+            -   number_of_participants:
+                    Parents: study_admin
+            CCDIv2.0.0:
+            -   number_of_participants:
+                    Parents: study_admin
+            CCDIv1.8.0:
+            -   number_of_participants:
+                    Parents: study_admin
+        number_of_samples:
+            CCDIv1.7.2:
+            -   number_of_samples:
+                    Parents: study_admin
+            CCDIv1.9.1:
+            -   number_of_samples:
+                    Parents: study_admin
+            CCDIv2.0.0:
+            -   number_of_samples:
+                    Parents: study_admin
+            CCDIv1.8.0:
+            -   number_of_samples:
+                    Parents: study_admin
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: study_admin
+            CCDIv1.9.1:
+            -   id:
+                    Parents: study_admin
+            CCDIv2.0.0:
+            -   id:
+                    Parents: study_admin
+            CCDIv1.8.0:
+            -   id:
+                    Parents: study_admin
+        study.study_id:
+            CCDIv1.7.2:
+            -   study.study_id:
+                    Parents: study_admin
+            CCDIv1.9.1:
+            -   study.study_id:
+                    Parents: study_admin
+            CCDIv2.0.0:
+            -   study.study_id:
+                    Parents: study_admin
+            CCDIv1.8.0:
+            -   study.study_id:
+                    Parents: study_admin
+    study_arm:
+        study_arm_id:
+            CCDIv1.7.2:
+            -   study_arm_id:
+                    Parents: study_arm
+            CCDIv1.9.1:
+            -   study_arm_id:
+                    Parents: study_arm
+            CCDIv2.0.0:
+            -   study_arm_id:
+                    Parents: study_arm
+            CCDIv1.8.0:
+            -   study_arm_id:
+                    Parents: study_arm
+        clinical_trial_identifier:
+            CCDIv1.7.2:
+            -   clinical_trial_identifier:
+                    Parents: study_arm
+            CCDIv1.9.1:
+            -   clinical_trial_identifier:
+                    Parents: study_arm
+            CCDIv2.0.0:
+            -   clinical_trial_identifier:
+                    Parents: study_arm
+            CCDIv1.8.0:
+            -   clinical_trial_identifier:
+                    Parents: study_arm
+        clinical_trial_repository:
+            CCDIv1.7.2:
+            -   clinical_trial_repository:
+                    Parents: study_arm
+            CCDIv1.9.1:
+            -   clinical_trial_repository:
+                    Parents: study_arm
+            CCDIv2.0.0:
+            -   clinical_trial_repository:
+                    Parents: study_arm
+            CCDIv1.8.0:
+            -   clinical_trial_repository:
+                    Parents: study_arm
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: study_arm
+            CCDIv1.9.1:
+            -   id:
+                    Parents: study_arm
+            CCDIv2.0.0:
+            -   id:
+                    Parents: study_arm
+            CCDIv1.8.0:
+            -   id:
+                    Parents: study_arm
+        study_arm_description:
+            CCDIv1.7.2:
+            -   null:
+                    Parents: null
+            CCDIv1.9.1:
+            -   study_arm_description:
+                    Parents: study_arm
+            CCDIv2.0.0:
+            -   study_arm_description:
+                    Parents: study_arm
+            CCDIv1.8.0:
+            -   study_arm_description:
+                    Parents: study_arm
+        study.study_id:
+            CCDIv1.7.2:
+            -   study.study_id:
+                    Parents: study_arm
+            CCDIv1.9.1:
+            -   study.study_id:
+                    Parents: study_arm
+            CCDIv2.0.0:
+            -   study.study_id:
+                    Parents: study_arm
+            CCDIv1.8.0:
+            -   study.study_id:
+                    Parents: study_arm
+    study_funding:
+        study_funding_id:
+            CCDIv1.7.2:
+            -   study_funding_id:
+                    Parents: study_funding
+            CCDIv1.9.1:
+            -   study_funding_id:
+                    Parents: study_funding
+            CCDIv2.0.0:
+            -   study_funding_id:
+                    Parents: study_funding
+            CCDIv1.8.0:
+            -   study_funding_id:
+                    Parents: study_funding
+        funding_agency:
+            CCDIv1.7.2:
+            -   funding_agency:
+                    Parents: study_funding
+            CCDIv1.9.1:
+            -   funding_agency:
+                    Parents: study_funding
+            CCDIv2.0.0:
+            -   funding_agency:
+                    Parents: study_funding
+            CCDIv1.8.0:
+            -   funding_agency:
+                    Parents: study_funding
+        grant_id:
+            CCDIv1.7.2:
+            -   grant_id:
+                    Parents: study_funding
+            CCDIv1.9.1:
+            -   grant_id:
+                    Parents: study_funding
+            CCDIv2.0.0:
+            -   grant_id:
+                    Parents: study_funding
+            CCDIv1.8.0:
+            -   grant_id:
+                    Parents: study_funding
+        funding_source_program_name:
+            CCDIv1.7.2:
+            -   funding_source_program_name:
+                    Parents: study_funding
+            CCDIv1.9.1:
+            -   funding_source_program_name:
+                    Parents: study_funding
+            CCDIv2.0.0:
+            -   funding_source_program_name:
+                    Parents: study_funding
+            CCDIv1.8.0:
+            -   funding_source_program_name:
+                    Parents: study_funding
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: study_funding
+            CCDIv1.9.1:
+            -   id:
+                    Parents: study_funding
+            CCDIv2.0.0:
+            -   id:
+                    Parents: study_funding
+            CCDIv1.8.0:
+            -   id:
+                    Parents: study_funding
+        study.study_id:
+            CCDIv1.7.2:
+            -   study.study_id:
+                    Parents: study_funding
+            CCDIv1.9.1:
+            -   study.study_id:
+                    Parents: study_funding
+            CCDIv2.0.0:
+            -   study.study_id:
+                    Parents: study_funding
+            CCDIv1.8.0:
+            -   study.study_id:
+                    Parents: study_funding
+    study_personnel:
+        study_personnel_id:
+            CCDIv1.7.2:
+            -   study_personnel_id:
+                    Parents: study_personnel
+            CCDIv1.9.1:
+            -   study_personnel_id:
+                    Parents: study_personnel
+            CCDIv2.0.0:
+            -   study_personnel_id:
+                    Parents: study_personnel
+            CCDIv1.8.0:
+            -   study_personnel_id:
+                    Parents: study_personnel
+        personnel_name:
+            CCDIv1.7.2:
+            -   personnel_name:
+                    Parents: study_personnel
+            CCDIv1.9.1:
+            -   personnel_name:
+                    Parents: study_personnel
+            CCDIv2.0.0:
+            -   personnel_name:
+                    Parents: study_personnel
+            CCDIv1.8.0:
+            -   personnel_name:
+                    Parents: study_personnel
+        personnel_type:
+            CCDIv1.7.2:
+            -   personnel_type:
+                    Parents: study_personnel
+            CCDIv1.9.1:
+            -   personnel_type:
+                    Parents: study_personnel
+            CCDIv2.0.0:
+            -   personnel_type:
+                    Parents: study_personnel
+            CCDIv1.8.0:
+            -   personnel_type:
+                    Parents: study_personnel
+        email_address:
+            CCDIv1.7.2:
+            -   email_address:
+                    Parents: study_personnel
+            CCDIv1.9.1:
+            -   email_address:
+                    Parents: study_personnel
+            CCDIv2.0.0:
+            -   email_address:
+                    Parents: study_personnel
+            CCDIv1.8.0:
+            -   email_address:
+                    Parents: study_personnel
+        institution:
+            CCDIv1.7.2:
+            -   institution:
+                    Parents: study_personnel
+            CCDIv1.9.1:
+            -   institution:
+                    Parents: study_personnel
+            CCDIv2.0.0:
+            -   institution:
+                    Parents: study_personnel
+            CCDIv1.8.0:
+            -   institution:
+                    Parents: study_personnel
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: study_personnel
+            CCDIv1.9.1:
+            -   id:
+                    Parents: study_personnel
+            CCDIv2.0.0:
+            -   id:
+                    Parents: study_personnel
+            CCDIv1.8.0:
+            -   id:
+                    Parents: study_personnel
+        study.study_id:
+            CCDIv1.7.2:
+            -   study.study_id:
+                    Parents: study_personnel
+            CCDIv1.9.1:
+            -   study.study_id:
+                    Parents: study_personnel
+            CCDIv2.0.0:
+            -   study.study_id:
+                    Parents: study_personnel
+            CCDIv1.8.0:
+            -   study.study_id:
+                    Parents: study_personnel
+        orcid:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   orcid:
+                    Parents: study_personnel
+        crdc_id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   crdc_id:
+                    Parents: study_personnel
+    treatment:
+        treatment_id:
+            CCDIv1.7.2:
+            -   therapeutic_procedure_id:
+                    Parents: therapeutic_procedure
+            CCDIv1.9.1:
+            -   treatment_id:
+                    Parents: treatment
+            CCDIv2.0.0:
+            -   treatment_id:
+                    Parents: treatment
+            CCDIv1.8.0:
+            -   treatment_id:
+                    Parents: treatment
+        age_at_treatment_start:
+            CCDIv1.7.2:
+            -   age_at_treatment_start:
+                    Parents: therapeutic_procedure
+            CCDIv1.9.1:
+            -   age_at_treatment_start:
+                    Parents: treatment
+            CCDIv2.0.0:
+            -   age_at_treatment_start:
+                    Parents: treatment
+            CCDIv1.8.0:
+            -   age_at_treatment_start:
+                    Parents: treatment
+        age_at_treatment_end:
+            CCDIv1.7.2:
+            -   age_at_treatment_end:
+                    Parents: therapeutic_procedure
+            CCDIv1.9.1:
+            -   age_at_treatment_end:
+                    Parents: treatment
+            CCDIv2.0.0:
+            -   age_at_treatment_end:
+                    Parents: treatment
+            CCDIv1.8.0:
+            -   age_at_treatment_end:
+                    Parents: treatment
+        treatment_type:
+            CCDIv1.7.2:
+            -   treatment_type:
+                    Parents: therapeutic_procedure
+            CCDIv1.9.1:
+            -   treatment_type:
+                    Parents: treatment
+            CCDIv2.0.0:
+            -   treatment_type:
+                    Parents: treatment
+            CCDIv1.8.0:
+            -   treatment_type:
+                    Parents: treatment
+        treatment_agent:
+            CCDIv1.7.2:
+            -   therapeutic_agent:
+                    Parents: therapeutic_procedure
+            CCDIv1.9.1:
+            -   treatment_agent:
+                    Parents: treatment
+            CCDIv2.0.0:
+            -   treatment_agent:
+                    Parents: treatment
+            CCDIv1.8.0:
+            -   treatment_agent:
+                    Parents: treatment
+        id:
+            CCDIv1.7.2:
+            -   id:
+                    Parents: therapeutic_procedure
+            CCDIv1.9.1:
+            -   id:
+                    Parents: treatment
+            CCDIv2.0.0:
+            -   id:
+                    Parents: treatment
+            CCDIv1.8.0:
+            -   id:
+                    Parents: treatment
+        participant.participant_id:
+            CCDIv1.7.2:
+            -   participant.participant_id:
+                    Parents: therapeutic_procedure
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: treatment
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: treatment
+            CCDIv1.8.0:
+            -   participant.participant_id:
+                    Parents: treatment
+        dose:
+            CCDIv2.0.0:
+            -   null:
+                    Parents: null
+        dose_unit:
+            CCDIv2.0.0:
+            -   null:
+                    Parents: null
+        dose_route:
+            CCDIv2.0.0:
+            -   null:
+                    Parents: null
+        dose_frequency:
+            CCDIv2.0.0:
+            -   null:
+                    Parents: null
+    generic_file:
+        generic_file_id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   generic_file_id:
+                    Parents: generic_file
+        file_name:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   file_name:
+                    Parents: generic_file
+        data_category:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   data_category:
+                    Parents: generic_file
+        file_type:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   file_type:
+                    Parents: generic_file
+        file_description:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   file_description:
+                    Parents: generic_file
+        file_size:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   file_size:
+                    Parents: generic_file
+        md5sum:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   md5sum:
+                    Parents: generic_file
+        file_mapping_level:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   file_mapping_level:
+                    Parents: generic_file
+        file_access:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   file_access:
+                    Parents: generic_file
+        acl:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   acl:
+                    Parents: generic_file
+        authz:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   authz:
+                    Parents: generic_file
+        file_url:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   file_url:
+                    Parents: generic_file
+        dcf_indexd_guid:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   dcf_indexd_guid:
+                    Parents: generic_file
+        id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   id:
+                    Parents: generic_file
+        crdc_id:
+            CCDIv1.9.1:
+            -   null:
+                    Parents: null
+            CCDIv2.0.0:
+            -   crdc_id:
+                    Parents: generic_file
+        study.study_id:
+            CCDIv1.9.1:
+            -   study_id:
+                    Parents: generic_file
+            CCDIv2.0.0:
+            -   study.study_id:
+                    Parents: generic_file
+        participant.participant_id:
+            CCDIv1.9.1:
+            -   participant.participant_id:
+                    Parents: generic_file
+            CCDIv2.0.0:
+            -   participant.participant_id:
+                    Parents: generic_file
+        sample.sample_id:
+            CCDIv1.9.1:
+            -   sample.sample_id:
+                    Parents: generic_file
+            CCDIv2.0.0:
+            -   sample.sample_id:
+                    Parents: generic_file
+TBD:
+-   old_node: diagnosis
+    old_prop: diagnosis_verification_status
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: diagnosis
+    old_prop: age_at_recurrence
+    old_model: CCDIv1.7.2
+    new_node: diagnosis
+    new_prop: age_at_recurrence
+    new_model: CCDIv1.9.1
+-   old_node: diagnosis
+    old_prop: age_at_recurrence
+    old_model: CCDIv1.9.1
+    new_node: null
+    new_prop: null
+    new_model: CCDIv2.0.0
+-   old_node: diagnosis
+    old_prop: last_known_disease_status
+    old_model: CCDIv1.7.2
+    new_node: diagnosis
+    new_prop: last_known_disease_status
+    new_model: CCDIv1.9.1
+-   old_node: diagnosis
+    old_prop: last_known_disease_status
+    old_model: CCDIv1.9.1
+    new_node: null
+    new_prop: null
+    new_model: CCDIv2.0.0
+-   old_node: diagnosis
+    old_prop: age_at_last_known_disease_status
+    old_model: CCDIv1.7.2
+    new_node: diagnosis
+    new_prop: age_at_last_known_disease_status
+    new_model: CCDIv1.9.1
+-   old_node: diagnosis
+    old_prop: age_at_last_known_disease_status
+    old_model: CCDIv1.9.1
+    new_node: null
+    new_prop: null
+    new_model: CCDIv2.0.0
+-   old_node: molecular_test
+    old_prop: chromosome
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: sample
+    old_prop: diagnosis_verification_status
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: sample
+    old_prop: last_known_disease_status
+    old_model: CCDIv1.7.2
+    new_node: diagnosis
+    new_prop: last_known_disease_status
+    new_model: CCDIv1.9.1
+-   old_node: sample
+    old_prop: age_at_last_known_disease_status
+    old_model: CCDIv1.7.2
+    new_node: diagnosis
+    new_prop: age_at_last_known_disease_status
+    new_model: CCDIv1.9.1
+-   old_node: study
+    old_prop: study_short_title
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: study_admin
+    old_prop: data_types
+    old_model: CCDIv1.7.2
+    new_node: study_admin
+    new_prop: data_types
+    new_model: CCDIv1.9.1
+-   old_node: study_admin
+    old_prop: data_types
+    old_model: CCDIv1.9.1
+    new_node: study_admin
+    new_prop: data_types
+    new_model: CCDIv2.0.0
+-   old_node: study_admin
+    old_prop: data_types
+    old_model: CCDIv2.0.0
+    new_node: null
+    new_prop: null
+    new_model: CCDIv2.1.0
+-   old_node: study_arm
+    old_prop: clinical_trial_arm
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: therapeutic_procedure
+    old_prop: treatment_outcome
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: cell_line
+    old_prop: participant.participant_id
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: cytogenomic_file
+    old_prop: cell_line.cell_line_id
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: cytogenomic_file
+    old_prop: pdx.pdx_id
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: pathology_file
+    old_prop: cell_line.cell_line_id
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: pathology_file
+    old_prop: pdx.pdx_id
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: methylation_array_file
+    old_prop: cell_line.cell_line_id
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: methylation_array_file
+    old_prop: pdx.pdx_id
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: sequencing_file
+    old_prop: cell_line.cell_line_id
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: sequencing_file
+    old_prop: pdx.pdx_id
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: single_cell_sequencing_file
+    old_prop: cell_line.cell_line_id
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: single_cell_sequencing_file
+    old_prop: pdx.pdx_id
+    old_model: CCDIv1.7.2
+    new_node: null
+    new_prop: null
+    new_model: CCDIv1.9.1
+-   old_node: diagnosis
+    old_prop: age_at_recurrence
+    old_model: CCDIv1.8.0
+    new_node: diagnosis
+    new_prop: age_at_recurrence
+    new_model: CCDIv1.9.1
+-   old_node: diagnosis
+    old_prop: last_known_disease_status
+    old_model: CCDIv1.8.0
+    new_node: diagnosis
+    new_prop: last_known_disease_status
+    new_model: CCDIv1.9.1
+-   old_node: diagnosis
+    old_prop: age_at_last_known_disease_status
+    old_model: CCDIv1.8.0
+    new_node: diagnosis
+    new_prop: age_at_last_known_disease_status
+    new_model: CCDIv1.9.1
+-   old_node: study_admin
+    old_prop: data_types
+    old_model: CCDIv1.8.0
+    new_node: study_admin
+    new_prop: data_types
+    new_model: CCDIv1.9.1
