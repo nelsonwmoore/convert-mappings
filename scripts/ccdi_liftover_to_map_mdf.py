@@ -1,24 +1,45 @@
-"""Script to convert CCDI liftover mapping TSV to MDF-Map format."""
+"""Script to convert a single CCDI liftover mapping TSV to MDF-Map format."""
 
 from __future__ import annotations
 
 from pathlib import Path
 
+import click
 import yaml
 
 from convert_mappings.ccdi_liftover import convert_df_to_map_dict, load_tsv
 
-# constants
-CCDI_LIFTOVER_TSV = Path("1.7.2_1.9.1_MAPPING_20240718.tsv")
-OUTPUT_MDF_MAP = Path("ccdi_1.7.2_1.9.1_mapping_mdf.yml")
-SOURCE = "CCDIv1.9.1"
 
-
-def main() -> None:
-    """Do stuff."""
-    liftover_df = load_tsv(CCDI_LIFTOVER_TSV)
-    mdf_map_dict = convert_df_to_map_dict(liftover_df, SOURCE)
-    yaml.dump(mdf_map_dict, OUTPUT_MDF_MAP.open("w"), indent=4)
+@click.command()
+@click.option(
+    "--liftover_file",
+    "-l",
+    type=click.Path(dir_okay=False, path_type=Path),
+    required=True,
+    help="CCDI Liftover Mapping TSV file path",
+    prompt=True,
+)
+@click.option(
+    "--output_file",
+    "-o",
+    type=click.Path(dir_okay=False, path_type=Path),
+    required=True,
+    help="Output MDF-Map file path",
+    prompt=True,
+)
+@click.option(
+    "--source_model",
+    "-s",
+    type=str,
+    required=True,
+    help="Source MDF-Map version",
+    prompt=True,
+)
+def main(liftover_file: Path, output_file: Path, source_model: str) -> None:
+    """Convert a single CCDI liftover mapping TSV to MDF-Map format."""
+    liftover_df = load_tsv(liftover_file)
+    mdf_map_dict = convert_df_to_map_dict(liftover_df, source_model)
+    yaml.dump(mdf_map_dict, output_file.open("w"), indent=4)
 
 
 if __name__ == "__main__":

@@ -1,17 +1,18 @@
-# ruff: noqa: T201
 """
 Script to combine multiple CCDI liftover TSV files into a single Map-MDF YAML.
 
 Chains the 1-1 mappings so that one can trace from an older version (e.g., 1.7.2
-or 1.8.0) to the linking (target) model (here, assumed to be CCDIv2.1.0).
+or 1.8.0) to the linking source model (here, assumed to be CCDIv2.1.0).
 
-Any chains that do not end at the linking model are dumped into the TBD section.
+Any chains that do not end at the source model are dumped into the TBD section.
 """
 
 from __future__ import annotations
 
+import logging
 from pathlib import Path
 
+import click
 import yaml
 
 from convert_mappings.ccdi_liftover import (
@@ -21,44 +22,64 @@ from convert_mappings.ccdi_liftover import (
     update_mapping_dict,
 )
 
-# List of input TSV files (adjust the paths as needed)
-FILE_DIR = Path("data/source/ccdi_liftover_mappings")
-FILE_PATHS = [
-    FILE_DIR / Path("1.7.2_1.9.1_MAPPING_20240718.tsv"),
-    FILE_DIR / Path("ccdi-model_1.9.1_ccdi-model_2.0.0_MAPPING_20241121.tsv"),
-    FILE_DIR / Path("ccdi-model_1.8.0_ccdi-model_1.9.1_MAPPING_20240904.tsv"),
-    FILE_DIR / Path("ccdi-model_2.0.0_ccdi-model_2.1.0_MAPPING_20250206.tsv"),
-]
-
-# Define the linking (target) model version.
-LINKING_MODEL_VERSION = "2.1.0"
-LINKING_MODEL = f"CCDIv{LINKING_MODEL_VERSION}"
+logger = logging.getLogger(__name__)
 
 
-def main() -> None:
-    """Do stuff."""
+@click.command()
+@click.option(
+    "--liftover_file",
+    "-l",
+    type=click.Path(dir_okay=False, path_type=Path),
+    required=True,
+    help="CCDI Liftover Mapping TSV file path",
+    prompt=True,
+    multiple=True,
+)
+@click.option(
+    "--source_model",
+    "-s",
+    type=str,
+    required=True,
+    help="Source MDF-Map version; model that links the others together",
+    prompt=True,
+)
+@click.option(
+    "--output_file",
+    "-o",
+    type=click.Path(dir_okay=False, path_type=Path),
+    required=True,
+    help="Output MDF-Map file path",
+    prompt=True,
+)
+def main(liftover_files: list[Path], source_model: str, output_file: Path) -> None:
+    """Combine multiple CCDI liftover TSV files into a single Map-MDF YAML."""
     # Gather all edges from all TSV files.
     all_edges = []
-    for file_path in FILE_PATHS:
-        print(f"Processing file: {file_path}")
+    for file_path in liftover_files:
+        logger.info("Processing file: %s", file_path)
         tsv_df = load_tsv(file_path)
         edges = extract_edges(tsv_df)
         all_edges.extend(edges)
 
     # Build chains from the edges.
-    complete_chains, conflict_chains = build_chains(all_edges, LINKING_MODEL)
-    print(f"Found {len(complete_chains)} complete chain(s) reaching {LINKING_MODEL}.")
+    complete_chains, conflict_chains = build_chains(all_edges, source_model)
+    logger.info(
+        "Found %s complete chain(s) reaching {source_model}.",
+        len(complete_chains),
+    )
     if conflict_chains:
-        print(
-            f"Found {len(conflict_chains)} chain(s) that did not reach {LINKING_MODEL}",
+        logger.warning(
+            "Found %s chain(s) that did not reach %s",
+            len(conflict_chains),
+            source_model,
         )
 
     # Build the final mapping dictionary following the Map-MDF schema.
     mapping_dict = {
-        "Source": LINKING_MODEL,
+        "Source": source_model,
         "Models": {},
         "Props": {},
-        "TBD": [],  # We'll store conflict chains here.
+        "TBD": [],  # store conflict chains here.
     }
 
     # Add each complete chain into the mapping.
@@ -73,11 +94,9 @@ def main() -> None:
                     continue
                 mapping_dict["TBD"].append(edge)
 
-    # Write the combined mapping to the output YAML file.
-    output_file = Path("data/output/ccdi_combined_mapping_mdf_20250403.yml")
     with output_file.open("w") as outfile:
         yaml.dump(mapping_dict, outfile, indent=4, sort_keys=False)
-    print(f"Combined mapping saved to {output_file}")
+    logger.info("Combined mapping saved to %s", output_file)
 
 
 if __name__ == "__main__":
